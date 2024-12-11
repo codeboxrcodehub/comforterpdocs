@@ -1,15 +1,6 @@
 ---
 layout: home
 
-title: "Comfort Accounting"
-description: "Comfort Accounting index description."
-keywords: "Comfort Accounting index keywords."
-url: "/comfortaccounting/"
-type: "website"
-site_name: "Comfort ERP"
-image: "https://comforthrm.com/assets/images/seo.png"
-card: "article"
-
 # Hero section
 hero:
   name: Comfort ERP
@@ -42,29 +33,29 @@ features:
     details: Lorem ipsum...
 
 # Meta property
-# head:
-#   - - meta
-#     - property: og:type
-#       content: website
-#   - - meta
-#     - property: og:title
-#       content: Comfort ERP
-#   - - meta
-#     - property: og:image
-#       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
-#   - - meta
-#     - property: og:url
-#       content: https://vitejs.dev/blog/announcing-vite3
-#   - - meta
-#     - name: title
-#       content: Comfort ERP
-#   - - meta
-#     - name: twitter:card
-#       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
-#   - - link
-#     - rel: icon
-#       type: image/svg
-#       href: logo.png
+head:
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:title
+      content: Comfort ERP
+  - - meta
+    - property: og:image
+      content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
+  - - meta
+    - property: og:url
+      content: https://vitejs.dev/blog/announcing-vite3
+  - - meta
+    - name: title
+      content: Comfort ERP
+  - - meta
+    - name: twitter:card
+      content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
+  - - link
+    - rel: icon
+      type: image/svg
+      href: logo.png
 ---
 
 <!-- Custom home layout -->

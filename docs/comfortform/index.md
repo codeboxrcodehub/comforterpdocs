@@ -1,5 +1,5 @@
 ---
-title: "Comfort Job Application Documentation"
+title: "Comfort Accounting Application Documentation"
 description: "Comfort Form index description."
 keywords: "Comfort Form index keywords."
 url: "/comfortform/"

@@ -9,7 +9,7 @@ import replace from 'gulp-replace';
 const dist_path = 'docs/.vitepress/dist';
 const www_path  = 'www';
 
-// Copy Job files
+// Copy files
 async function copyDist() {
     // Clean destination folder
     await deleteAsync([path.join(www_path, 'dist/**/*')]);

@@ -1,5 +1,5 @@
 ---
-title: "Comfort Job Application Documentation"
+title: "Comfort Accounting Application Documentation"
 description: "Comfort Form index description."
 keywords: "Comfort Form index keywords."
 url: "/comfortform/classic-widgets"
@@ -26,4 +26,4 @@ The following classic widgets(currently 2 widgets (core and pro)) can be accesse
 1.  Latest Form
 2.  Form List (pro)
 
-**Last modified:** December 11, 2024
+**Last modified:** December 9, 2024
