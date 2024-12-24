@@ -104,6 +104,7 @@ export default {
           collapsible: true,
           items: [
             { text: 'General', link: '/comfortaccounting/user-guide/general' },
+            { text: 'Settings Manager', link: '/comfortaccounting/user-guide/settings-manager' },
             { text: 'Agency Manager', link: '/comfortaccounting/user-guide/agency-manager' },
             { text: 'Account Manager', link: '/comfortaccounting/user-guide/account-manager' },
             { text: 'Category Manager', link: '/comfortaccounting/user-guide/category-manager' },
