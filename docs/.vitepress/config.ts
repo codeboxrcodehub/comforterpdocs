@@ -87,7 +87,7 @@ export default {
           text: 'Shortcode',
           collapsible: true,
           items: [
-            { text: '9 Shortcodes', link: '/comfortaccounting/shortcodes' },
+            { text: '7 Shortcodes', link: '/comfortaccounting/shortcodes' },
           ],
         },
         {

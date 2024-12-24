@@ -10,7 +10,7 @@ card: "article"
 ---
 # How to Install
 
-The core plugin name is **“Comfort Accounting”** and our pro addon name is **“Comfort Accounting Pro Addon”**.
+The core plugin name is **“Comfort Accounting”** and our pro addon names are **“Comfort Accounting Frontend”**, **"Comfort Accounting Reports"** & **"Comfort Accounting Woo"**.
 
 ## How to install any plugin
 
@@ -20,9 +20,19 @@ Before we know how to install “Comfort Accounting” plugin if we know how to 
 
 You can install Comfort Accounting plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortaccounting/) and install manually.
 
-## How to install “Comfort Accounting Pro Addon”
+## How to install “Comfort Accounting Frontend”
 
-**Comfort Accounting Addon** doesn’t work without the core plugin **Comfort Accounting**. So, before you install the pro addon you need to have the core Comfort Accounting plugin installed and activated (if you want to activate this pro addon). So, Comfort Accounting Pro Addon is an addon plugin for core plugin Comfort Accounting.  
-To install CBX Changelog Pro Addon you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+**Comfort Accounting Frontend** doesn’t work without the core plugin **Comfort Accounting**. So, before you install the pro addon you need to have the core Comfort Accounting plugin installed and activated (if you want to activate this pro addon). So, Comfort Accounting Frontend is an addon plugin for core plugin Comfort Accounting.  
+To install Comfort Accounting Frontend you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+
+## How to install “Comfort Accounting Reports”
+
+**Comfort Accounting Reports** doesn’t work without the core plugin **Comfort Accounting**. So, before you install the pro addon you need to have the core Comfort Accounting plugin installed and activated (if you want to activate this pro addon). So, Comfort Accounting Reports is an addon plugin for core plugin Comfort Accounting.  
+To install Comfort Accounting Reports you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+
+## How to install “Comfort Accounting Woo”
+
+**Comfort Accounting Woo** doesn’t work without the core plugin **Comfort Accounting**. So, before you install the pro addon you need to have the core Comfort Accounting plugin installed and activated (if you want to activate this pro addon). So, Comfort Accounting Woo is an addon plugin for core plugin Comfort Accounting.  
+To install Comfort Accounting Woo you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
 
 **Last modified:** December 9, 2024
