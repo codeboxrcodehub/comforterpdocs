@@ -98,6 +98,20 @@ export default {
             { text: 'Elementor Widget', link: '/comfortaccounting/elementor-widgets' },
             { text: 'Gutenberg Blocks', link: '/comfortaccounting/gutenberg-blocks' },
           ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortaccounting/user-guide/general' },
+            { text: 'Agency Manager', link: '/comfortaccounting/user-guide/agency-manager' },
+            { text: 'Account Manager', link: '/comfortaccounting/user-guide/account-manager' },
+            { text: 'Category Manager', link: '/comfortaccounting/user-guide/category-manager' },
+            { text: 'VC Manager', link: '/comfortaccounting/user-guide/vc-manager' },
+            { text: 'Log Manager', link: '/comfortaccounting/user-guide/log-manager' },
+            { text: 'Reports Manager (Pro)', link: '/comfortaccounting/user-guide/reports-manager' },
+            { text: 'Tools Manager', link: '/comfortaccounting/user-guide/tools-manager' },
+          ],
         }
       ],
 
