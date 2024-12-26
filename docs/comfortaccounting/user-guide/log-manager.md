@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-# Comfort Accounting User Guide
+# Log Manager
 
 The Log Manager is designed to capture and record financial data generated from accounts, categories, and the vendor/client (VC) manager. It consolidates various data points into a log entry, allowing for efficient tracking and reporting of financial transactions.
 

@@ -53,6 +53,7 @@ Both export features are accessible only with the Reports Pro Addon, unlocking p
 <br/> This summary provides a high-level view of the plugin's capabilities. For detailed guidance, explore the corresponding sections linked below.
 
 ## Components we have ##
+[Dashboard](./dashboard.md)\
 [Agency Manager](./agency-manager.md)\
 [Account Manager](./account-manager.md)\
 [Category Manager](./category-manager.md)\

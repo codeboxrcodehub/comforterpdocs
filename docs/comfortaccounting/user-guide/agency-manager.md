@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-# Comfort Accounting User Guide
+# Agency Manager
 
 The Agency Manager serves as the foundational component of the Comfort Accounting system, acting as the **entry point** for all operations and integrations within the platform. It ensures that every action and component is systematically organized and associated with specific agencies, providing a streamlined approach to accounting management.
 

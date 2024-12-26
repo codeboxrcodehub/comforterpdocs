@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-# Comfort Accounting User Guide
+# Settings Manager
 
 This short guide provides a basic walkthrough for setting up the Comfort Accounting plugin. For detailed instructions on each component, refer to the specific sections in the plugin documentation.
 

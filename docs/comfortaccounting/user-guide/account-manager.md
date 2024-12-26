@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-# Comfort Accounting User Guide
+# Account Manager
 
 The Account Manager serves as the core feature for managing financial accounts within the system, offering a straightforward structure for efficient account management.
 

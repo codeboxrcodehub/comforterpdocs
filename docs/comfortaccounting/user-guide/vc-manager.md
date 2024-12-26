@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-# Comfort Accounting User Guide
+# Vendor Client Manager
 
 The Vendor/Client (VC) Manager is designed to manage and organize vendors and clients within the system. This component provides an easy way to maintain crucial information related to each vendor or client, enhancing operational efficiency and data accuracy.
 

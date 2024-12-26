@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-# Comfort Accounting User Guide
+# Category Manager
 
 The Category Manager is designed to streamline the management of financial categories within the system, enabling clear organization and classification of transactions.
 
