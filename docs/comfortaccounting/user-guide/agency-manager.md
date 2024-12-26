@@ -25,15 +25,15 @@ The Agency Manager serves as the foundational component of the Comfort Accountin
 + Permissions are managed on an **agency basis**, ensuring secure and customized access.
 + Members can be invited via **email**, with the flexibility to **accept or reject** invitations.
 
-**Frontend Integration**:
+**Frontend Integration (Pro)**:
 + All features are seamlessly managed through frontend interfaces, respecting **agency-specific permissions**.
 + The frontend experience empowers users to interact with their assigned agencies efficiently.
 
-**Permission-Based Access Control (Frontend)**:
-+ Agency-level permissions ensure granular control over what members can **view, edit, or manage** within the system.
+**Permission-Based Access Control (Frontend Pro)**:
++ Agency-level permissions ensure granular control over what members can **view, edit, or manage** within the frontend system.
 + Seamless integration of permission-based management extends to all related components.
 
-**Export Options**:
+**Export Options (Reports Pro)**:
 + Listing Export allows all agency details in bulk with supported formats, including **XLS, XLSX, ODS, and PDF**.
 + Single Export allow individual agency details in **JSON or PDF** format.
 

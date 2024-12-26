@@ -32,7 +32,7 @@ The Comfort Accounting plugin is a robust tool designed to streamline accounting
 + **Settings Manager**: Configure Basic Settings, Email Settings, File Upload/Attachments Settings & Components Settings. Also, we have WooCommerce Integration Settings in this place.
 
 ## Enhanced User Experience with Pro Addon ##
-The Comfort Accounting Frontend extends all essential features to the frontend, empowering users with a seamless and intuitive interface. Key functionalities such as the Dashboard and Component Management are fully accessible, allowing frontend users to view, manage, and interact with critical accounting data directly from the frontend. This includes streamlined access to Agencies, Accounts, Categories, Vendor/Client information, Logs, and Reports.
+The Comfort Accounting Frontend extends all essential features to the frontend, empowering users with a seamless and intuitive interface. Key functionalities such as the Dashboard and Component Management are fully accessible, allowing frontend users to view, manage, and interact with critical accounting data directly from the frontend. This includes streamlined access to Agencies, Accounts, Categories, Vendor/Client information, Logs, Reports & Agency Overview.
 
 With this comprehensive frontend support, users can perform their tasks efficiently without navigating to the backend, ensuring a smooth and productive workflow.
 
@@ -46,9 +46,9 @@ The platform leverages WordPress core roles and capabilities for robust access c
 
 + **Admin Management**: Administrative tasks are seamlessly handled using WordPress core capabilities, providing a secure and scalable foundation for backend operations.
 
-+ **Frontend Management**: Permissions for frontend users are agency-based, ensuring tailored access and control specific to each agency's requirements. This role-based approach delivers a secure and user-friendly environment across all operational levels.
++ **Frontend Management (Pro)**: Permissions for frontend users are agency-based, ensuring tailored access and control specific to each agency's requirements. This role-based approach delivers a secure and user-friendly environment across all operational levels.
 
-## Export Options ##
+## Export Options (Reports Pro) ##
 + **Listing Export**: This Feature allows exporting all the components listing details at once. Export types are XLS, XLSX, ODS, PDF.
 
 + **Single Export**: Provides the option to export individual details. Export types are available JSON & PDF.
@@ -60,4 +60,4 @@ Both export features are accessible only with the Reports Pro Addon, unlocking p
 
 + The XLS, XLSX, and ODS export features are available only when the "CBX PhpSpreadSheet Library" plugin is activated.
 
-<br/> This summary provides a high-level view of the plugin's capabilities. For detailed guidance, explore the corresponding sections linked below.
+<br/> This summary provides a high-level view of the plugin's capabilities. For detailed guidance, explore the corresponding sections linked above top of the page.
