@@ -50,7 +50,7 @@ export default {
     // Navbar Link
     nav: [
       { text: "Accounting", link: "/comfortaccounting/" },
-      { text: "Form", link: "/comfortform/" },
+      //{ text: "Form", link: "/comfortform/" },
     ],
     //Social Icons
     socialLinks: [
@@ -84,6 +84,24 @@ export default {
           ],
         },
         {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortaccounting/user-guide/general' },
+            { text: 'Dashboard', link: '/comfortaccounting/user-guide/dashboard' },
+            { text: 'Agency Manager', link: '/comfortaccounting/user-guide/agency-manager' },
+            { text: 'Account Manager', link: '/comfortaccounting/user-guide/account-manager' },
+            { text: 'Category Manager', link: '/comfortaccounting/user-guide/category-manager' },
+            { text: 'VC Manager', link: '/comfortaccounting/user-guide/vc-manager' },
+            { text: 'Log Manager', link: '/comfortaccounting/user-guide/log-manager' },
+            { text: 'Reports Manager (Pro)', link: '/comfortaccounting/user-guide/reports-manager' },
+            { text: 'Settings Manager', link: '/comfortaccounting/user-guide/settings-manager' },
+            { text: 'Tools Manager', link: '/comfortaccounting/user-guide/tools-manager' },
+            { text: 'Emails Manager', link: '/comfortaccounting/user-guide/emails-manager' },
+            { text: 'Helps & Updates', link: '/comfortaccounting/user-guide/helps-updates' },
+          ],
+        },
+        {
           text: 'Shortcode',
           collapsible: true,
           items: [
@@ -99,42 +117,27 @@ export default {
             { text: 'Gutenberg Blocks', link: '/comfortaccounting/gutenberg-blocks' },
           ],
         },
-        {
-          text: 'User Guide',
-          collapsible: true,
-          items: [
-            { text: 'General', link: '/comfortaccounting/user-guide/general' },
-            { text: 'Settings Manager', link: '/comfortaccounting/user-guide/settings-manager' },
-            { text: 'Agency Manager', link: '/comfortaccounting/user-guide/agency-manager' },
-            { text: 'Account Manager', link: '/comfortaccounting/user-guide/account-manager' },
-            { text: 'Category Manager', link: '/comfortaccounting/user-guide/category-manager' },
-            { text: 'VC Manager', link: '/comfortaccounting/user-guide/vc-manager' },
-            { text: 'Log Manager', link: '/comfortaccounting/user-guide/log-manager' },
-            { text: 'Reports Manager (Pro)', link: '/comfortaccounting/user-guide/reports-manager' },
-            { text: 'Tools Manager', link: '/comfortaccounting/user-guide/tools-manager' },
-          ],
-        }
       ],
-
     
       // Sidebar for `/guide/` section
-      '/comfortform/': [
-        {
-          text: 'Comfort Form',
-          collapsible: true,
-          items: [
-            { text: 'How to install', link: '/comfortform/how-to-install' },
-            { text: 'How to Translate', link: '/comfortform/how-to-translate' },
-            { text: 'Template Override', link: '/comfortform/template-override' },
-            { text: 'Shortcodes', link: '/comfortform/shortcodes' },
-            { text: 'Classic Widgets', link: '/comfortform/classic-widgets' },
-            { text: 'Elementor Widget', link: '/comfortform/elementor-widgets' },
-            { text: 'Gutenberg Blocks', link: '/comfortform/gutenberg-blocks' },
-            { text: 'Hooks and Filters', link: '/comfortform/hooks-and-filters' },
-            { text: 'Code Samples', link: '/comfortform/code-samples' },
-          ],
-        },
-      ],
+      // '/comfortform/': [
+      //   {
+      //     text: 'Comfort Form',
+      //     collapsible: true,
+      //     items: [
+      //       { text: 'How to install', link: '/comfortform/how-to-install' },
+      //       { text: 'How to Translate', link: '/comfortform/how-to-translate' },
+      //       { text: 'Template Override', link: '/comfortform/template-override' },
+      //       { text: 'Shortcodes', link: '/comfortform/shortcodes' },
+      //       { text: 'Classic Widgets', link: '/comfortform/classic-widgets' },
+      //       { text: 'Elementor Widget', link: '/comfortform/elementor-widgets' },
+      //       { text: 'Gutenberg Blocks', link: '/comfortform/gutenberg-blocks' },
+      //       { text: 'Hooks and Filters', link: '/comfortform/hooks-and-filters' },
+      //       { text: 'Code Samples', link: '/comfortform/code-samples' },
+      //     ],
+      //   },
+      // ],
+
      },
     // you can disable the previous and next page here
     docFooter: {

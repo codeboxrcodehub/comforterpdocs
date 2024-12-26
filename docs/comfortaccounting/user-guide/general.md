@@ -12,7 +12,7 @@ card: "article"
 
 # Comfort Accounting User Guide
 
-The Comfort Accounting plugin is a robust tool designed to streamline accounting processes in WordPress. It offers comprehensive features and settings to manage agencies, accounts, categories, vendors/clients, logs, reports, and integration with WooCommerce. Below is a brief overview of its core functionalities and configurable options:
+The Comfort Accounting plugin is a robust tool designed to streamline accounting processes in WordPress. It offers comprehensive features and settings to **manage agencies, accounts, categories, vendors/clients, logs, reports, and integration with WooCommerce**. Below is a brief overview of its core functionalities and configurable options:
 
 ## General Features ##
 + **Dashboard:** Global Dashboard that shows all the key information in one place.
@@ -58,4 +58,5 @@ Both export features are accessible only with the Reports Pro Addon, unlocking p
 [Category Manager](./category-manager.md)\
 [Vendor/Client Manager](./vc-manager.md)\
 [Log Manager](./log-manager.md)\
-[Report Manager (Pro)](./reports-manager.md)
+[Report Manager (Pro)](./reports-manager.md)\
+[Tools Manager](./tools-manager.md)
