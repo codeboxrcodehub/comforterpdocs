@@ -28,7 +28,7 @@ The Vendor/Client (VC) Manager is designed to manage and organize vendors and cl
 **Connected User**:
 + A Connected User option allows users to **link a specific user to a vendor or client**, helping to identify who is responsible for managing each vendor or client relationship within the system.
 
-**Export Options**:
+**Export Options (Reports Pro)**:
 + Listing Export allows all agency details in bulk with supported formats, including **XLS, XLSX, ODS, and PDF**.
 + Single Export allow individual agency details in **JSON or PDF** format.
 

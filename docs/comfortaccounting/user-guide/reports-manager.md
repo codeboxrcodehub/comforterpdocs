@@ -19,7 +19,7 @@ The Reports Manager serves as a **pro feature** of the system, allowing users to
 **Report Generation**:
 + The Summary Statement report generates a summary of all system entries within a user-defined date range. Users can specify the start and end dates, allowing for customizable reporting periods. This report offers a comprehensive snapshot of financial **transactions and balances** within the selected timeframe.
 
-**Export Options**:
+**Export Options (Reports Pro)**:
 + The Summary Statement report can be exported in **various formats** for further analysis and documentation. Supported export formats includes XLS, XLSX, ODS, PDF. This flexibility ensures compatibility with common office software, enabling users to work with the report data in the format they prefer.
 
 **Export & Mail Feature**:

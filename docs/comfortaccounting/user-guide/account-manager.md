@@ -22,7 +22,7 @@ The Account Manager serves as the core feature for managing financial accounts w
 **Account Management**:
 + Easily **create, update, and manage accounts** through an intuitive interface designed for simplicity and efficiency.
 
-**Export Options**:
+**Export Options (Reports Pro)**:
 + Listing Export allows all account details in bulk with supported formats, including **XLS, XLSX, ODS, and PDF**.
 + Single Export allow individual account details in **JSON or PDF** format.
 
