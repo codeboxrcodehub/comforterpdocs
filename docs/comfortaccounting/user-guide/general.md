@@ -14,6 +14,16 @@ card: "article"
 
 The Comfort Accounting plugin is a robust tool designed to streamline accounting processes in WordPress. It offers comprehensive features and settings to **manage agencies, accounts, categories, vendors/clients, logs, reports, and integration with WooCommerce**. Below is a brief overview of its core functionalities and configurable options:
 
+## Core Components ##
+[Dashboard](./dashboard.md)\
+[Agency Manager](./agency-manager.md)\
+[Account Manager](./account-manager.md)\
+[Category Manager](./category-manager.md)\
+[Vendor/Client Manager](./vc-manager.md)\
+[Log Manager](./log-manager.md)\
+[Report Manager (Pro)](./reports-manager.md)\
+[Tools Manager](./tools-manager.md)
+
 ## General Features ##
 + **Dashboard:** Global Dashboard that shows all the key information in one place.
 
@@ -51,13 +61,3 @@ Both export features are accessible only with the Reports Pro Addon, unlocking p
 + The XLS, XLSX, and ODS export features are available only when the "CBX PhpSpreadSheet Library" plugin is activated.
 
 <br/> This summary provides a high-level view of the plugin's capabilities. For detailed guidance, explore the corresponding sections linked below.
-
-## Components we have ##
-[Dashboard](./dashboard.md)\
-[Agency Manager](./agency-manager.md)\
-[Account Manager](./account-manager.md)\
-[Category Manager](./category-manager.md)\
-[Vendor/Client Manager](./vc-manager.md)\
-[Log Manager](./log-manager.md)\
-[Report Manager (Pro)](./reports-manager.md)\
-[Tools Manager](./tools-manager.md)
