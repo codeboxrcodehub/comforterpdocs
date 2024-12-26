@@ -10,7 +10,7 @@ card: "article"
 ---
 # How to Install
 
-The core plugin name is **“Comfort Accounting”** and our pro addon names are **“Comfort Accounting Frontend”**, **"Comfort Accounting Reports"** & **"Comfort Accounting Woo"**.
+The core plugin name is **“Comfort Accounting”** and our pro addon names are **“Comfort Accounting Frontend (Pro)”**, **"Comfort Accounting Reports (Pro)"** & **"Comfort Accounting Woo (Pro)"**.
 
 ## How to install any plugin
 
