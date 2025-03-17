@@ -5,7 +5,6 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
     "www": "gulp www",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -19,6 +18,7 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "crypto": "^1.0.1",
     "del": "^8.0.0",
     "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
