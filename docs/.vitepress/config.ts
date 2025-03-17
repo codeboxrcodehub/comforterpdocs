@@ -50,6 +50,7 @@ export default {
     // Navbar Link
     nav: [
       { text: "Accounting", link: "/comfortaccounting/" },
+      { text: "Invoice", link: "/comfortinvoice/" },
       //{ text: "Form", link: "/comfortform/" },
     ],
     //Social Icons
@@ -115,6 +116,32 @@ export default {
             { text: 'Classic Widgets', link: '/comfortaccounting/classic-widgets' },
             { text: 'Elementor Widget', link: '/comfortaccounting/elementor-widgets' },
             { text: 'Gutenberg Blocks', link: '/comfortaccounting/gutenberg-blocks' },
+          ],
+        },
+      ],
+
+      '/comfortinvoice/': [
+        {
+          text: 'Comfort Invoice',
+          collapsible: false,
+        },
+        {
+          text: 'Getting Started',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortinvoice/how-to-install' },
+            { text: 'How to Translate', link: '/comfortinvoice/how-to-translate' },
+            { text: 'Template Override', link: '/comfortinvoice/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortinvoice/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortinvoice/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortinvoice/user-guide/general' },
+            { text: 'Dashboard', link: '/comfortinvoice/user-guide/dashboard' },
           ],
         },
       ],
