@@ -142,6 +142,7 @@ export default {
           items: [
             { text: 'General', link: '/comfortinvoice/user-guide/general' },
             { text: 'Dashboard', link: '/comfortinvoice/user-guide/dashboard' },
+            { text: 'Invoice Manager', link: '/comfortinvoice/user-guide/invoice-manager' },
           ],
         },
       ],
