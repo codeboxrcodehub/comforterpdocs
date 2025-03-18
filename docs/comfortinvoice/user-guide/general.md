@@ -18,3 +18,7 @@ The Comfort Invoice plugin is a robust tool designed to streamline invoice proce
 [Dashboard](./dashboard.md)\
 [Invoice Manager](./invoice-manager.md)\
 [Customer Manager](./customer-manager.md)\
+[Item Manager](./item-manager.md)\
+[Tax Manager](./tax-manager.md)\
+[Payment History Manager (Pro)](./payment-history-manager.md)\
+[Tools Manager](./tools-manager.md)
