@@ -144,6 +144,10 @@ export default {
             { text: 'Dashboard', link: '/comfortinvoice/user-guide/dashboard' },
             { text: 'Invoice Manager', link: '/comfortinvoice/user-guide/invoice-manager' },
             { text: 'Customer Manager', link: '/comfortinvoice/user-guide/customer-manager' },
+            { text: 'Item Manager', link: '/comfortinvoice/user-guide/item-manager' },
+            { text: 'Tax Manager', link: '/comfortinvoice/user-guide/tax-manager' },
+            { text: 'Payment History Manager', link: '/comfortinvoice/user-guide/payment-history-manager' },
+            { text: 'Settings Manager', link: '/comfortinvoice/user-guide/settings-manager' },
             { text: 'Tools Manager', link: '/comfortinvoice/user-guide/tools-manager' },
             { text: 'Emails Manager', link: '/comfortinvoice/user-guide/emails-manager' },
             { text: 'Helps & Updates', link: '/comfortinvoice/user-guide/helps-updates' },
@@ -153,6 +157,7 @@ export default {
           text: 'Widgets',
           collapsible: true,
           items: [
+            { text: 'Dashboard Widgets', link: '/comfortinvoice/dashboard-widgets' },
             { text: 'Classic Widgets', link: '/comfortinvoice/classic-widgets' },
             { text: 'Elementor Widget', link: '/comfortinvoice/elementor-widgets' },
             { text: 'Gutenberg Blocks', link: '/comfortinvoice/gutenberg-blocks' },
