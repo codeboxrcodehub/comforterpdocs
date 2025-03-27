@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { defineConfig, HeadConfig } from 'vitepress'
+//import { defineConfig, HeadConfig } from 'vitepress'
 
 dotenv.config();
 
@@ -9,7 +9,7 @@ export default {
   sitemap: {
     hostname: base_url
   },
-  transformHead: ({ pageData }) => {
+  /*transformHead: ({ pageData }) => {
     const head: HeadConfig[] = [];
 
     head.push(['meta', { property: 'keywords', content: pageData.frontmatter.keywords }]);
@@ -32,7 +32,7 @@ export default {
     head.push(['meta', { property: 'twitter:image', content: pageData.frontmatter.image }]);
 
     return head
-  },
+  },*/
   title: "Comfort ERP",
   description: "An awesome docs template built by me",
   lang: 'en-US',
