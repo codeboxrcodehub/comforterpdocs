@@ -4,33 +4,33 @@ layout: home
 # Hero section
 hero:
   name: Comfort ERP
-  text: Streamline your HR process.
+  text: Documentation for Comfort ERP plugins
   image:
-    src: /logo-white.png
+    src: /comforterp_logo_brand_vertical.png
     alt: Comfort ERP logo
-  tagline: A free to use template for creating docs for your projects
+  tagline: Accounting, Inventory & Invoice
   actions:
     - theme: brand
       text: Get Started
-      link: /guide
+      link: /comfortaccounting
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/codeboxrcodehub/comforterpdocs
+      text: Try Comfort ERP Plugins
+      link: https://comforterp.com
 
 # Features section
 features:
   - icon: ⚡️
-    title: Comfort ERP, The DX that can't be beat
-    details: Lorem ipsum...
+    title: Comfort Accounting
+    details: Comprehensive Accounting solution for WordPress
   - icon: 🎉
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: Comfort Inventory & Invoice
+    details: Invoice solution inside WordPress for SME business
   - icon: 🔥
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: Comfort Forms
+    details: Coming Soon!
   - icon: 🎀
-    title: Stylish and cool
-    details: Lorem ipsum...
+    title: Comfort XYZ
+    details: Planned
 
 # Meta property
 head:
@@ -39,29 +39,29 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: Comfort ERP
+      content: Comfort ERP Documentation
   - - meta
     - property: og:image
-      content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
+      content: seo_card.png
   - - meta
     - property: og:url
-      content: https://vitejs.dev/blog/announcing-vite3
+      content: https://docs.comforterp.com
   - - meta
     - name: title
       content: Comfort ERP
   - - meta
     - name: twitter:card
-      content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
+      content: seo_card.png
   - - link
     - rel: icon
       type: image/svg
-      href: logo.png
+      href: logo_icon_brand_512.png
 ---
 
 <!-- Custom home layout -->
 <div class="custom-layout custom-layout-1">
   <h1>🏀</h1>
-  <h1>Custom Layout</h1>
-  <p>This section was added using plain HTML and CSS. </p>
-  <a href="https://github.com/codeboxrcodehub/comforterpdocs/blob/main/docs/index.md#custom-layout" target="_blank" class="btn">Source Code</a>
+  <h1>Contact Us</h1>
+  <p>We are continuously updating this documentation but you may have custom query.</p>
+  <a href="https://comforterp.com/contact-us" target="_blank" class="btn">Contact us</a>
 </div>
