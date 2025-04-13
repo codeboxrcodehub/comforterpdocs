@@ -1,11 +1,11 @@
 ---
 title: "Comfort Accounting Documentation"
-description: "Comfort Accounting index description."
+description: "Documentation for Comfort Accounting for WordPress"
 keywords: "Comfort Accounting index keywords."
 url: "/comfortaccounting/code-samples"
 type: "type"
 site_name: "Comfort ERP"
-image: "https://comforthrm.com/assets/images/seo.png"
+image: /seo_card.png
 card: "article"
 ---
 # Code Samples

@@ -5,7 +5,7 @@ keywords: "Comfort Invoice index keywords."
 url: "/comfortinvoice/how-to-install"
 type: "type"
 site_name: "Comfort ERP"
-image: "https://comforthrm.com/assets/images/seo.png"
+image: /seo_card.png
 card: "article"
 ---
 # How to Install

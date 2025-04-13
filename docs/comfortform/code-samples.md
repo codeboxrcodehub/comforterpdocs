@@ -5,7 +5,7 @@ keywords: "Comfort Form index keywords."
 url: "/comfortform/code-samples"
 type: "type"
 site_name: "Comfort ERP"
-image: "https://comforthrm.com/assets/images/seo.png"
+image: /seo_card.png
 card: "article"
 ---
 # Code Samples
