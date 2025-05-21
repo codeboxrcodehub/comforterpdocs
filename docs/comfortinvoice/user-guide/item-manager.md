@@ -26,6 +26,7 @@ The **Item Manager** is a powerful tool designed to efficiently manage products 
 + **Unit**: Define the measurement unit for goods (e.g., piece, kg, liter) to ensure consistency in transactions.
 + **Price**: Set the **default price** for each item, which can be adjusted within invoices if needed.
 + **SKU (Stock Keeping Unit)**: Assign a unique identifier to each item for easy inventory tracking.
++ **Barcode**: Attach a barcode to streamline inventory management and point-of-sale processes.
 + **Source Currency**: Specify the **currency** in which the item’s price is originally set, ensuring accurate multi-currency invoicing and conversions.
 
 ### **Item Selection & Invoice Integration**:
@@ -34,7 +35,7 @@ The **Item Manager** is a powerful tool designed to efficiently manage products 
 + **Seamless Integration with Invoicing**: Selected items automatically populate the invoice with pre-configured price, tax, and currency details.
 
 ### **Item Management & Workflow**:
-+ View and manage complete **item profiles**, including name, type, SKU, pricing, and currency details.
++ View and manage complete **item profiles**, including name, type, SKU, Barcode, pricing, and currency details.
 + Supports **multi-currency transactions**, allowing accurate conversions based on the **source currency**.
 + Easily update or modify item details to reflect changes in pricing, tax, or unit of measurement.
 
