@@ -23,6 +23,6 @@ You can install Comfort Form plugin from your wordpress dashboard -> Plugins -> 
 ## How to install “Comfort Form Pro Addon”
 
 **Comfort Form Addon** doesn’t work without the core plugin **Comfort Form**. So, before you install the pro addon you need to have the core Comfort Form plugin installed and activated (if you want to activate this pro addon). So, Comfort Form Pro Addon is an addon plugin for core plugin Comfort Form.  
-To install CBX Changelog Pro Addon you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+To install CBX Changelog Pro Addon you have to purchase [license and download](https://comforterp.com/product/comfort-accounting-accounting-solution-for-wordpress/#downloadarea) from our website and then install manually.
 
 **Last modified:** December 9, 2024
