@@ -18,7 +18,8 @@ Before we know how to install “Comfort Accounting” plugin if we know how to 
 
 ## How to install “Comfort Accounting” Core Plugin
 
-You can install Comfort Accounting plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortaccounting/) and install manually.
+~~You can install Comfort Accounting plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortaccounting/) and install manually.~~
+[Download](https://comforterp.com/product/comfort-accounting-accounting-solution-for-wordpress/#downloadarea) the core plugin from our website and install the zip file manually from wordpress dashboard plugin manager.
 
 ## How to install “Comfort Accounting Frontend”
 
