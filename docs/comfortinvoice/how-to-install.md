@@ -23,6 +23,6 @@ You can install Comfort Invoice plugin from your wordpress dashboard -> Plugins 
 ## How to install “Comfort Invoice Pro”
 
 **Comfort Invoice Pro** doesn’t work without the core plugin **Comfort Invoice**. So, before you install the pro addon you need to have the core Comfort Invoice plugin installed and activated (if you want to activate this pro addon). So, Comfort Invoice Pro is an addon plugin for core plugin Comfort Invoice.  
-To install Comfort Invoice Pro you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+To install Comfort Invoice Pro you have to purchase [license and download](https://comforterp.com/product/comfort-accounting-accounting-solution-for-wordpress/#downloadarea) from our website and then install manually.
 
 **Last modified:** March 17, 2025
