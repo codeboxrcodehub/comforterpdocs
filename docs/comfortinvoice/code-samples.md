@@ -1,15 +1,13 @@
 ---
-title: "Comfort Accounting Documentation"
-description: "Documentation for Comfort Accounting for WordPress"
-keywords: "Comfort Accounting index keywords."
-url: "/comfortaccounting/code-samples"
+title: "Comfort Invoice Documentation"
+description: "Documentation for Comfort Invoice"
+keywords: "Comfort Invoice index keywords"
+url: "/comfortinvoice/code-samples"
 type: "type"
 site_name: "Comfort ERP"
 image: /seo_card.png
 card: "article"
 ---
 # Code Samples
-
-
 
 **Last modified:** December 9, 2024

@@ -51,7 +51,7 @@ export default {
     nav: [
       { text: "Accounting", link: "/comfortaccounting/" },
       { text: "Invoice", link: "/comfortinvoice/" },
-      //{ text: "Form", link: "/comfortform/" },
+      { text: "Bookings", link: "/comfortbookings/" },
     ],
     //Social Icons
     socialLinks: [
@@ -161,6 +161,38 @@ export default {
             { text: 'Classic Widgets', link: '/comfortinvoice/classic-widgets' },
             { text: 'Elementor Widget', link: '/comfortinvoice/elementor-widgets' },
             { text: 'Gutenberg Blocks', link: '/comfortinvoice/gutenberg-blocks' },
+          ],
+        },
+      ],
+
+      '/comfortbookings/': [
+        {
+          text: 'Comfort Bookings',
+          collapsible: false,
+        },
+        {
+          text: 'Getting Started',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortbookings/how-to-install' },
+            { text: 'How to Translate', link: '/comfortbookings/how-to-translate' },
+            { text: 'Template Override', link: '/comfortbookings/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortbookings/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortbookings/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortbookings/user-guide/general' },
+            { text: 'Dashboard', link: '/comfortbookings/user-guide/dashboard' },
+            { text: 'Appointment Type Manager', link: '/comfortbookings/user-guide/type-manager' },
+            { text: 'Meeting & Booking Manager', link: '/comfortbookings/user-guide/meeting-booking-manager' },
+            { text: 'Settings Manager', link: '/comfortbookings/user-guide/settings-manager' },
+            { text: 'Tools Manager', link: '/comfortbookings/user-guide/tools-manager' },
+            { text: 'Emails Manager', link: '/comfortbookings/user-guide/emails-manager' },
+            { text: 'Helps & Updates', link: '/comfortbookings/user-guide/helps-updates' },
           ],
         },
       ],
