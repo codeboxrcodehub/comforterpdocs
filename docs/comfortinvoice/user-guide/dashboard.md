@@ -7,7 +7,6 @@ type: "type"
 site_name: "Comfort ERP"
 image: /seo_card.png
 card: "article"
-
 ---
 
 # Dashboard

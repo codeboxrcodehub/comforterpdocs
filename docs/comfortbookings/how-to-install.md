@@ -24,6 +24,6 @@ Before we know how to install “Comfort Bookings & Appointments” plugin if we
 ## How to install “Comfort Bookings & Appointments Pro”
 
 **Comfort Bookings & Appointments Pro** doesn’t work without the core plugin **Comfort Bookings & Appointments**. So, before you install the pro addon you need to have the core Comfort Bookings & Appointments plugin installed and activated (if you want to activate this pro addon). So, Comfort Bookings & Appointments Pro is an addon plugin for core plugin Comfort Bookings & Appointments.  
-To install Comfort Bookings & Appointments Pro you have to purchase [license and download](https://comforterp.com/product/comfort-bookings-and-appointments-complete-invoice-plugin-for-wordpress/#downloadarea) from our website and then install manually.
+To install Comfort Bookings & Appointments Pro you have to purchase [license and download](https://comforterp.com/product/comfort-bookings-and-appointments-complete-bookings-plugin-for-wordpress/#downloadarea) from our website and then install manually.
 
 **Last modified:** July 13, 2025

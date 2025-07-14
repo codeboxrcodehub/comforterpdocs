@@ -12,7 +12,7 @@ card: "article"
 
 # Tools Manager
 
-The Tools Manager provides essential utilities for managing **system data** and configurations within the platform. It offers three powerful features to enhance data management and ensure smooth operations. These tools help users maintain the integrity of their system, migrate data, and fix orphaned data associations.
+The Tools Manager provides essential utilities for managing **system data** and configurations within the platform. It offers three powerful features to enhance data management and ensure smooth operations. These tools help users maintain the integrity of their system, migrate data.
 
 ## Options ##
 
@@ -22,7 +22,7 @@ The Tools Manager provides essential utilities for managing **system data** and 
 **Migration Files**:
 + The Migration Files feature provides users with visibility into which migration files have been successfully migrated and which have not. Users can also initiate **migrations directly** from this section, allowing for streamlined data transfer and system updates. This functionality is crucial for maintaining data consistency during system upgrades or migrations.
 
-The Tools Manager is an integral part of the system, offering critical utilities to **keep data organized**, ensure smooth migrations, and fix orphaned data associations. These features enhance data integrity and improve the overall functionality of the system.
+The Tools Manager is an integral part of the system, offering critical utilities to **keep data organized**, ensure smooth migrations. These features enhance data integrity and improve the overall functionality of the system.
 
 
 

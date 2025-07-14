@@ -29,7 +29,7 @@ These fundamental settings allow you to define core parameters for your accounti
 
 + **Number Settings**: Here we have option Number of Decimals, Decimal Separator, Thousand Separator, Currency Position.
 
-Other options like **Show login form for guest user**, **Guest User Login Form**, **Show Register link to guest**, **Allow Edit Protected Logs**, **On Uninstall delete plugin data** are self introductory. Labels are there to guide.
+Other options like **Show login form for guest user**, **Guest User Login Form**, **Show Register link to guest**, **On Uninstall delete plugin data** are self introductory. Labels are there to guide.
 
 ## Additional Settings Sections ##
 
