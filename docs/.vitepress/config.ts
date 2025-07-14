@@ -195,6 +195,15 @@ export default {
             { text: 'Helps & Updates', link: '/comfortbookings/user-guide/helps-updates' },
           ],
         },
+        {
+          text: 'Widgets',
+          collapsible: true,
+          items: [
+            { text: 'Classic Widgets', link: '/comfortbookings/classic-widgets' },
+            { text: 'Elementor Widget', link: '/comfortbookings/elementor-widgets' },
+            { text: 'Gutenberg Blocks', link: '/comfortbookings/gutenberg-blocks' },
+          ],
+        },
       ],
 
       // Sidebar for `/guide/` section
