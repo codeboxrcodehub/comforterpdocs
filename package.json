@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "www": "gulp www",
+    "wwwbuild": "npm run docs:build && gulp www",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
