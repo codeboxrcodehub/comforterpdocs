@@ -17,5 +17,6 @@ The Comfort Bookings & Appointments plugin is a robust tool designed to streamli
 [Dashboard](./dashboard.md)\
 [Appointment Type Manager](./type-manager.md)\
 [Meeting & Booking Manager](./meeting-booking-manager.md)\
+[Public Meeting & Booking](./public-meeting-booking.md)\
 [Payment History Manager (Pro)](./payment-history-manager.md)\
 [Tools Manager](./tools-manager.md)
