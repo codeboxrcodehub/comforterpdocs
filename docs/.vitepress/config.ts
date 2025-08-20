@@ -52,6 +52,7 @@ export default {
       { text: "Accounting", link: "/comfortaccounting/" },
       { text: "Invoice", link: "/comfortinvoice/" },
       { text: "Bookings", link: "/comfortbookings/" },
+      { text: "Events", link: "/comfortevents/" },
     ],
     //Social Icons
     socialLinks: [
@@ -204,6 +205,43 @@ export default {
             { text: 'Classic Widgets', link: '/comfortbookings/classic-widgets' },
             { text: 'Elementor Widget', link: '/comfortbookings/elementor-widgets' },
             { text: 'Gutenberg Blocks', link: '/comfortbookings/gutenberg-blocks' },
+          ],
+        },
+      ],
+      '/comfortevents/': [
+        {
+          text: 'Comfort Event',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortevents/how-to-install' },
+            { text: 'How to Translate', link: '/comfortevents/how-to-translate' },
+            { text: 'Template Override', link: '/comfortevents/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortevents/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortevents/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortevents/user-guide/general' },
+            { text: 'Event Manager', link: '/comfortevents/user-guide/event-manager' },
+            { text: 'Event Calendar View(Pro)', link: '/comfortevents/user-guide/event-calendar' },           
+            { text: 'Event Category', link: '/comfortevents/user-guide/event-category' },
+            { text: 'Event Tags', link: '/comfortevents/user-guide/event-tags' },
+            { text: 'Orders', link: '/comfortevents/user-guide/orders' },
+            { text: 'Payment History', link: '/comfortevents/user-guide/payment-history' },
+            { text: 'Payment Methods', link: '/comfortevents/user-guide/payment-methods' },
+            { text: 'Tools Manager', link: '/comfortevents/user-guide/tools-manager' },
+            { text: 'Settings Manager', link: '/comfortevents/user-guide/settings' },
+            { text: 'Email Templates', link: '/comfortevents/user-guide/emails' },
+          ],
+        },
+        {
+          text: 'Shortcode',
+          collapsible: true,
+          items: [
+            { text: '7 Shortcodes', link: '/comfortevents/shortcodes' },
           ],
         },
       ],
