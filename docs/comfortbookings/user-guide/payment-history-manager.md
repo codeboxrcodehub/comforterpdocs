@@ -29,13 +29,8 @@ The **Payment History Manager** is a comprehensive tool designed to track and ma
 + The maximum amount cannot exceed the **booking amount**, ensuring payment accuracy.
 + Maintain transparency in payment records by allowing **adjustments only within permissible limits**.
 
-### **Payment Notes & Documentation**:
-+ Add or update **notes** for each payment history entry to document transaction details or remarks.
-+ Notes help keep track of important payment-related information for future reference.
-
-### **Seamless Integration with Invoicing**:
+### **Seamless Integration with Bookings**:
 + Payments are linked to bookings, ensuring **real-time updates**.
-+ Partial payments and multiple payment entries are supported, ensuring accurate financial tracking.
 + Automatically update **booking status** based on received payments.
 
 ### **Payment History Management & Workflow**:

@@ -24,8 +24,16 @@ The **Meeting & Booking Manager** is a powerful tool designed to efficiently cre
 ### **Choose Time Slot**:
 + Select from available time intervals based on the booking type’s configuration.
 
-### **Add Attendees**:
-+ Include one or multiple(pro) participants depending on the type's attendee allowance.
+## Available Sections To Manage
+
+### **Meeting & Booking Manager: Meeting Attendee**
+* This module provides a comprehensive overview and management system for all attendees associated with your bookings. It allows for tracking attendance status and managing participant details.
+* List of all meeting attendees in a tabular format.
+* Manage Attendees: Edit attendee details or delete attendees from the meeting.
+* Attendance Tracking: Mark individual attendees as Present or Absent to track participation.
+* Listing Bulk Options: Delete or update the attendance status of single or multiple attendees.
++ Include one or multiple(pro) participants depending on the service attendee allowance, or paid bookings has its own pricing settings.
+
 
 ### **Bookings Attendee Export/Import(Pro)**
 + This feature allows admins and authorized users to export attendee lists and import attendees in bulk via Excel files.
