@@ -19,11 +19,15 @@ hero:
 
 # Features section
 features:
-  - icon: ⚡️
+  - icon:
+      src: /comfortaccounting_logo_black.png
+      alt: Comfort Accounting logo
     title: Comfort Accounting
     details: Comprehensive Accounting solution for WordPress
     link: /comfortaccounting
-  - icon: 🎉
+  - icon:
+      src: /comfortinvoice_logo_black.png
+      alt: Comfort Invoice logo
     title: Comfort Inventory & Invoice
     details: Invoice solution inside WordPress for SME business
     link: /comfortinvoice
