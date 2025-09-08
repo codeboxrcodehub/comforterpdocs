@@ -191,13 +191,10 @@ export default {
             { text: 'Appointment Type Manager', link: '/comfortbookings/user-guide/type-manager' },
             { text: 'Meeting & Booking Manager', link: '/comfortbookings/user-guide/meeting-booking-manager' },
             { text: 'Public Meeting & Booking', link: '/comfortbookings/user-guide/public-meeting-booking' },
-              
             { text: 'Meeting & Booking Calendar (Pro)', link: '/comfortbookings/user-guide/calendar' },
-
             { text: 'Payments History', link: '/comfortbookings/user-guide/payment-history-manager' },
             { text: 'Orders', link: '/comfortbookings/user-guide/orders' },
             { text: 'Payment Methods', link: '/comfortbookings/user-guide/payment-methods-manager' },
-
             { text: 'Settings Manager', link: '/comfortbookings/user-guide/settings-manager' },
             { text: 'Tools Manager', link: '/comfortbookings/user-guide/tools-manager' },
             { text: 'Emails Manager', link: '/comfortbookings/user-guide/emails-manager' },

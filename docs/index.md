@@ -22,15 +22,19 @@ features:
   - icon: ⚡️
     title: Comfort Accounting
     details: Comprehensive Accounting solution for WordPress
+    link: /comfortaccounting
   - icon: 🎉
     title: Comfort Inventory & Invoice
     details: Invoice solution inside WordPress for SME business
+    link: /comfortinvoice
   - icon: 🔥
-    title: Comfort Forms
-    details: Coming Soon!
+    title: Comfort Bookings
+    details: Bookings & Appointments system for SME business inside WordPress
+    link: /comfortbookings
   - icon: 🎀
-    title: Comfort XYZ
-    details: Planned
+    title: Comfort Events
+    details: A powerful event management plugin for WordPress.
+    link: /comfortevents
 
 # Meta property
 head:
