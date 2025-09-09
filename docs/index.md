@@ -20,25 +20,29 @@ hero:
 # Features section
 features:
   - icon:
-      src: /comfortaccounting_logo_black.png
+      light: /comfortaccounting_logo_black.png
+      dark: /comfortaccounting_logo_white.png
       alt: Comfort Accounting logo
     title: Comfort Accounting
     details: Comprehensive Accounting solution for WordPress
     link: /comfortaccounting
   - icon:
-      src: /comfortinvoice_logo_black.png
+      light: /comfortinvoice_logo_black.png
+      dark: /comfortinvoice_logo_white.png
       alt: Comfort Invoice logo
     title: Comfort Inventory & Invoice
     details: Invoice solution inside WordPress for SME business
     link: /comfortinvoice
   - icon:
-      src: /comfortbookings_icon_black.svg
+      light: /comfortbookings_icon_black.svg
+      dark: /comfortbookings_icon_white.svg
       alt: Comfort Bookings logo
     title: Comfort Bookings
     details: Bookings & Appointments system for SME business inside WordPress
     link: /comfortbookings
   - icon:
-      src: /comfortevents_logo_black.svg
+      light: /comfortevents_logo_black.svg
+      dark: /comfortevents_icon_white.svg
       alt: Comfort Events logo
     title: Comfort Events
     details: A powerful event management plugin for WordPress.

@@ -49,3 +49,24 @@
   border-radius: 20px;
   padding: 0.5rem 1.4rem;
 }
+
+/* Logo theme switching */
+.feature-icon img {
+  transition: opacity 0.3s ease;
+}
+
+.feature-icon .light-logo {
+  display: block;
+}
+
+.feature-icon .dark-logo {
+  display: none;
+}
+
+.dark .feature-icon .light-logo {
+  display: none;
+}
+
+.dark .feature-icon .dark-logo {
+  display: block;
+}
