@@ -31,11 +31,15 @@ features:
     title: Comfort Inventory & Invoice
     details: Invoice solution inside WordPress for SME business
     link: /comfortinvoice
-  - icon: 🔥
+  - icon:
+      src: /comfortbookings_icon_black.svg
+      alt: Comfort Bookings logo
     title: Comfort Bookings
     details: Bookings & Appointments system for SME business inside WordPress
     link: /comfortbookings
-  - icon: 🎀
+  - icon:
+      src: /comfortevents_logo_black.svg
+      alt: Comfort Events logo
     title: Comfort Events
     details: A powerful event management plugin for WordPress.
     link: /comfortevents
