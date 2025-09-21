@@ -23,6 +23,7 @@ The Quick Information section displays concise summaries by graphs of key compon
 
 **Latest Information**:
 + This section shows the most recently added bookings in your system.
++ This section shows the most recently added orders in your system.
 
 ## Graphs ##
 The Graphs section **visually represents** your bookings data, making it easier to understand trends and make informed decisions.
@@ -31,7 +32,8 @@ The Graphs section **visually represents** your bookings data, making it easier 
 + **Monthly Bookings Overview**: Displays a comparative analysis of bookings count trends.
 
 **Benefits**:
-+ Helps track yours bookings by date.
++ Helps track yours bookings by month.
++ Helps track orders by month.
 + Viewable as a detailed graph on the dashboard.
 + Supports informed business planning by **bookings summary** effectively.
 
@@ -41,7 +43,7 @@ All dashboard data can be filtered to provide a more focused view based on:
 
 ## Use Case Scenarios ##
 + **Track Monthly Bookings**: View how much bookings occurred for a **specific month**.
-+ **Monitor Latest Activities**: Quickly check recent bookings without navigating away from the dashboard.
++ **Monitor Latest Activities**: Quickly check recent bookings, orders without navigating away from the dashboard.
 + **Month-Specific Data**: Filter all graphs and logs by month to analyze business health independently.
 + **Plan Strategies**: Use the Overview and latest input categorization to develop effective budgeting strategies.
 
