@@ -234,6 +234,8 @@ export default {
             { text: 'General', link: '/comfortevents/user-guide/general' },
             { text: 'Event Manager', link: '/comfortevents/user-guide/event-manager' },
             { text: 'Event Calendar View(Pro)', link: '/comfortevents/user-guide/event-calendar' },           
+            { text: 'Speaker Manager', link: '/comfortevents/user-guide/speaker-manager' },
+            { text: 'Sponsor Manager', link: '/comfortevents/user-guide/sponsor-manager' },
             { text: 'Event Category', link: '/comfortevents/user-guide/event-category' },
             { text: 'Event Tags', link: '/comfortevents/user-guide/event-tags' },
             { text: 'Orders', link: '/comfortevents/user-guide/orders' },

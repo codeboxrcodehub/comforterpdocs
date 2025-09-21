@@ -38,6 +38,9 @@ card: "article"
    - **Event Tags**: Add relevant tags for the event.
    - **Event Seo**: Add relevant seo fields value for the event.
 4. Publish the event.
-5. You can also add Event Team member by inviting users to mange events from frontend. 
-6. Add ticket if the event is paid and assign limit for price, max entry for a ticket, per person maximum ticket and etc.
-7. Manage event attendee fron edit window.
+5. **Event Ticket Manager** Manage ticket if the event is paid and assign limit for price, max entry for a ticket, per person maximum ticket and etc.
+6. **Event Team Manager(Pro)** Manage team member and update their indivisual permission throughout the application.
+7. **Event Attendee Manager** Managed registered attendee from event window.
+8. **Event Venue Manager**: Create, Edit, Delete Venue from event window.
+9. **Event Speaker Manager**: Create, Edit, Delete Event Speaker from event window.
+10. **Event Sponsor Manager**: Create, Edit, Delete Event Sponsor from event window.
