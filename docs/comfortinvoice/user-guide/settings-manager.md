@@ -59,4 +59,10 @@ Other options like **Show login form for guest user**, **Guest User Login Form**
 + **Enable/Disable Specific Payment Methods**
 + **Online Payment Gateway Configuration** – Enter API keys for supported payment providers.
 
+### **WooCommerce Integration** ###
++ **Enable/Disable WooCommerce Integration**
++ **Enable/Disable Sync Deletion, Order → Invoice**
++ **Enable/Disable Sync Deletion, Invoice → Order**
++ **Enable/Disable Append Order ID to Invoice notes**
+
 The **Settings Manager** provides a flexible configuration system, allowing businesses to tailor the **Comfort Invoice** plugin to their specific financial and operational needs.

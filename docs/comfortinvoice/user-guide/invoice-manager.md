@@ -7,7 +7,6 @@ type: "type"
 site_name: "Comfort ERP"
 image: /seo_card.png
 card: "article"
-
 ---
 
 # Invoice Manager
@@ -45,7 +44,14 @@ The Invoice Manager is a powerful tool designed to streamline the billing proces
 **Payment Notifications (Pro)**:
 + Automated **email notifications** for **payment complete** and **refund complete** events, sent to both the admin and the customer. This is fully configurable through the **email settings**, allowing businesses to customize communication.
 
-Payment tracking and history features require the **Pro** Addon, providing enhanced payment capabilities.
+Payment, payment tracking and history features require the **Pro** Addon, providing enhanced payment capabilities.
+
+**WooCommerce Integration (Pro)**
++ Bridge the gap between your **WooCommerce store** and your **invoicing**. This feature allows you to generate detailed invoices directly from WooCommerce **products** and create **orders**, streamlining your workflow.
++ Instantly create professional invoices with a single click, **pulling all product details** add directly into the invoice with necessary information.
++ Maintain complete control from a dedicated 'WooCommerce Integration' settings panel. This hub allows you to **enable or disable** the entire integration and manage the synchronization of order and invoice **availability** & **statuses** between both platforms.
+
+All these WooCommerce features require the **Pro** Addon, providing enhanced invoice creation capabilities.
 
 This component seamlessly integrates with other accounting features, ensuring a cohesive and efficient financial management experience for users.
 
