@@ -152,6 +152,7 @@ export default {
             { text: 'Tools Manager', link: '/comfortinvoice/user-guide/tools-manager' },
             { text: 'Emails Manager', link: '/comfortinvoice/user-guide/emails-manager' },
             { text: 'Helps & Updates', link: '/comfortinvoice/user-guide/helps-updates' },
+            { text: 'WooCommerce Integration', link: '/comfortinvoice/user-guide/woo-integration' },
           ],
         },
         {
