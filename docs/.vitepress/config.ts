@@ -101,6 +101,7 @@ export default {
             { text: 'Tools Manager', link: '/comfortaccounting/user-guide/tools-manager' },
             { text: 'Emails Manager', link: '/comfortaccounting/user-guide/emails-manager' },
             { text: 'Helps & Updates', link: '/comfortaccounting/user-guide/helps-updates' },
+            { text: 'Integrations', link: '/comfortaccounting/user-guide/integrations' },
           ],
         },
         {
