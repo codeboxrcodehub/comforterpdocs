@@ -12,7 +12,7 @@ card: "article"
 
 # Comfort Accounting User Guide
 
-The Comfort Accounting plugin is a robust tool designed to streamline accounting processes in WordPress. It offers comprehensive features and settings to **manage agencies, accounts, categories, vendors/clients, logs, reports, and integration with WooCommerce**. Below is a brief overview of its core functionalities and configurable options:
+The Comfort Accounting plugin is a robust tool designed to streamline accounting processes in WordPress. It offers comprehensive features and settings to **manage agencies, accounts, categories, vendors/clients, logs, reports, and integration with WooCommerce & Comfort Invoice**. Below is a brief overview of its core functionalities and configurable options:
 
 ## Core Components ##
 [Dashboard](./dashboard.md)\
@@ -22,14 +22,15 @@ The Comfort Accounting plugin is a robust tool designed to streamline accounting
 [Vendor/Client Manager](./vc-manager.md)\
 [Log Manager](./log-manager.md)\
 [Report Manager (Pro)](./reports-manager.md)\
-[Tools Manager](./tools-manager.md)
+[Tools Manager](./tools-manager.md)\
+[Integrations (Pro)](./integrations.md)
 
 ## General Features ##
 + **Dashboard:** Global Dashboard that shows all the key information in one place.
 
 + **Component Management:** Customize the behavior of key components such as Agency, Account, Category, Vendor/Client, Log, and Reports**[Pro]**.
 
-+ **Settings Manager**: Configure Basic Settings, Email Settings, File Upload/Attachments Settings & Components Settings. Also, we have WooCommerce Integration Settings in this place.
++ **Settings Manager**: Configure Basic Settings, Email Settings, File Upload/Attachments Settings & Components Settings. Also, we have WooCommerce & Comfort Invoice Integration Settings in this place.
 
 ## Enhanced User Experience with Pro Addon ##
 The Comfort Accounting Frontend extends all essential features to the frontend, empowering users with a seamless and intuitive interface. Key functionalities such as the Dashboard and Component Management are fully accessible, allowing frontend users to view, manage, and interact with critical accounting data directly from the frontend. This includes streamlined access to Agencies, Accounts, Categories, Vendor/Client information, Logs, Reports & Agency Overview.

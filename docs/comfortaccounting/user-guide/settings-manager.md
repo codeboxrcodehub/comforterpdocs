@@ -48,11 +48,11 @@ The Component Settings section in the Comfort Accounting plugin offers comprehen
 
 **[PRO]**
 + For pro addon **Comfort Accounting Reports** will add two option **Report Settings** & **Export Settings**
-
 + For pro addon **Comfort Accounting Woo** will add option **Woocommerce**
++ For pro addon **Comfort Accounting Integrations** will add option **Woocommerce** & **Comfort Invoice**.
 
 ## Woocommerce ##
-The WooCommerce Integration Settings section is designed to manage the seamless synchronization between WooCommerce and Comfort Accounting. With configurable options, you can tailor the integration to align with your specific operational needs.
+The WooCommerce Integration settings section is designed to manage the seamless synchronization between WooCommerce and Comfort Accounting. With configurable options, you can tailor the integration to align with your specific operational needs.
 
 + **Enable/Disable WooCommerce Integration:** Checkbox to activate or deactivate the WooCommerce integration.
 
@@ -63,6 +63,19 @@ The WooCommerce Integration Settings section is designed to manage the seamless 
 + **Bank Account Selection:** Input field to set the bank account for associating WooCommerce transactions.
 
 + **Insert New Customer as Client:** Checkbox to automatically add new WooCommerce customers as clients in the Vendors/Clients area.
+
+## Comfort Invoice ##
+The Comfort Invoice settings section is designed to manage the seamless synchronization between Comfort Invoice and Comfort Accounting. With configurable options, you can tailor the integration to align with your specific operational needs.
+
++ **Enable/Disable Comfort Invoice Integration:** Checkbox to activate or deactivate the integration.
+
++ **Agency Selection:** Input field to set an agency. This option is mandatory to associate Comfort Invoice transactions with a specific agency in the system.
+
++ **Associate Bank Account:** Checkbox to enable or disable the association of Comfort Invoice transactions with a specific bank account.
+
++ **Bank Account Selection:** Input field to set the bank account for associating Comfort Invoice transactions.
+
++ **Insert New Customer as Client:** Checkbox to automatically add new Comfort Invoice customers as clients in the Vendors/Clients area.
 
 ## Saving Changes ##
 After adjusting these settings, click the Save Changes button to activate your preferences.

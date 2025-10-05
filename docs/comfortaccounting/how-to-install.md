@@ -10,7 +10,7 @@ card: "article"
 ---
 # How to Install
 
-The core plugin name is **“Comfort Accounting”** and our pro addon names are **“Comfort Accounting Frontend (Pro)”**, **"Comfort Accounting Reports (Pro)"** & **"Comfort Accounting Woo (Pro)"**.
+The core plugin name is **“Comfort Accounting”** and our pro addon names are **“Comfort Accounting Frontend (Pro)”**, **"Comfort Accounting Reports (Pro)"** & **"Comfort Accounting Woo (Pro)"** & & **"Comfort Accounting Integrations (Pro)"**.
 
 ## How to install any plugin
 
@@ -35,5 +35,10 @@ To install Comfort Accounting Reports you have to purchase [license and download
 
 **Comfort Accounting Woo** doesn’t work without the core plugin **Comfort Accounting**. So, before you install the pro addon you need to have the core Comfort Accounting plugin installed and activated (if you want to activate this pro addon). So, Comfort Accounting Woo is an addon plugin for core plugin Comfort Accounting.  
 To install Comfort Accounting Woo you have to purchase [license and download](https://comforterp.com/product/comfort-accounting-accounting-solution-for-wordpress/#downloadarea) from our website and then install manually.
+
+## How to install “Comfort Accounting Integrations”
+
+**Comfort Accounting Integrations** doesn’t work without the core plugin **Comfort Accounting**. So, before you install the pro addon you need to have the core Comfort Accounting plugin installed and activated (if you want to activate this pro addon). So, Comfort Accounting Integrations is an addon plugin for core plugin Comfort Accounting.  
+To install Comfort Accounting Integrations you have to purchase [license and download](https://comforterp.com/product/comfort-accounting-accounting-solution-for-wordpress/#downloadarea) from our website and then install manually.
 
 **Last modified:** December 9, 2024
