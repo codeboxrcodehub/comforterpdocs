@@ -13,7 +13,7 @@ const currentDir = dirname(fileURLToPath(import.meta.url));
 export default defineNuxtConfig({
     nitro: {
         //preset: 'github-pages',
-        preset: process.env.PRESET,
+        //preset: process.env.PRESET,
         prerender: {
             failOnError: true, // Don’t exit build on missing docs/images
         },
