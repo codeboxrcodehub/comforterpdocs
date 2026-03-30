@@ -35,7 +35,7 @@ jobs:
         # This step runs your "generate" script: "nuxt prepare && nuxt generate www"
         # This command is responsible for generating files into 'www/.output/public'
         env:
-          NUXT_APP_BASE_URL: /comforterpdocs/ # Setting the BASE_URL environment variable for Nuxt
+          NUXT_APP_BASE_URL: / # Setting the BASE_URL environment variable for Nuxt
         run: pnpm run generate
 
       - name: Deploy to GitHub Pages
