@@ -52,7 +52,7 @@ export default defineAppConfig({
           target: '_self',
           showLinkIcon: false,
         },
-        /*{
+        /* {
           title: 'Bookings',
           to: '/comfortbookings',
           target: '_self',
@@ -63,7 +63,7 @@ export default defineAppConfig({
           to: '/comfortevents',
           target: '_self',
           showLinkIcon: false,
-        },*/
+        }, */
       ],
       links: [
         /* {
@@ -73,7 +73,7 @@ export default defineAppConfig({
         }, */
         {
           icon: 'lucide:github',
-          to: 'https://github.com/codeboxrcodehub/comforterpdocsnuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
         },
       ],
@@ -357,7 +357,7 @@ export default defineAppConfig({
         }, */
         {
           icon: 'lucide:github',
-          to: 'https://github.com/codeboxrcodehub/comforterpdocsnuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
         },
       ],
@@ -371,14 +371,14 @@ export default defineAppConfig({
         {
           title: 'Star on GitHub',
           icon: 'lucide:star',
-          to: 'https://github.com/codeboxrcodehub/comforterpdocsnuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
           showLinkIcon: true,
         },
         {
           title: 'Create Issues',
           icon: 'lucide:circle-dot',
-          to: 'https://github.com/codeboxrcodehub/comforterpdocsnuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
           showLinkIcon: true,
         },
@@ -401,7 +401,7 @@ export default defineAppConfig({
         },
         {
           icon: 'lucide:github',
-          to: 'https://github.com/codeboxrcodehub/comforterpdocsnuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
         },
       ],

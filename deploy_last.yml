@@ -25,7 +25,7 @@ jobs:
       # Set the environment variable and run the generate script
       - name: Build and Generate Static Files
         # **IMPORTANT:** Replace 'repository-name' with your actual repository name
-        run: BASE_URL=/comforterpdocsnuxt/ npm run generate
+        run: BASE_URL=/comforterpdocs/ npm run generate
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
