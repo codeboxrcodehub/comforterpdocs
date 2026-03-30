@@ -25,11 +25,14 @@ jobs:
       # Set the environment variable and run the generate script
       - name: Build and Generate Static Files
         # **IMPORTANT:** Replace 'repository-name' with your actual repository name
-        run: BASE_URL=/comforterpdocs/ npm run generate
+        env:
+          NUXT_APP_BASE_URL: /
+        run: npm run generate
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.output/public # This is the directory with your generated files
+          publish_dir: ./www/.output/public # This is the directory with your generated files
           publish_branch: gh-pages # The branch to deploy to (GitHub Pages default)
+          cname: docs.comforterp.com
