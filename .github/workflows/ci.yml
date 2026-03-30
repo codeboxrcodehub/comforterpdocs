@@ -48,3 +48,4 @@ jobs:
           publish_branch: gh-pages
           # Optional: Add a custom commit message
           commit_message: Deploying static Nuxt site to gh-pages
+          cname: docs.comforterp.com

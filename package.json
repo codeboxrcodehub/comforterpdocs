@@ -40,7 +40,7 @@
     "dev": "nuxt prepare && nuxt dev www",
     "generate": "nuxt prepare && nuxt generate www",
     "generate2": "nuxt prepare && nuxt generate www",
-    "generate3": "nuxt prepare && NUXT_APP_BASE_URL=/comforterpdocs/ nuxt generate --preset github_pages || echo 'Ignoring prerender errors'",
+    "generate3": "nuxt prepare && NUXT_APP_BASE_URL=${NUXT_APP_BASE_URL:-/} nuxt generate --preset github_pages || echo 'Ignoring prerender errors'",
     "preview": "nuxt prepare && nuxt preview www",
     "typecheck": "nuxt prepare && nuxt typecheck",
     "lint": "eslint .",
