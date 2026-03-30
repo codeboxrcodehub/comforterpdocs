@@ -1,15 +1,14 @@
 <template>
   <div
-      class="gap-8 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10"
-      :class="{ 'grid md:grid-cols-2': true }"
+    class="gap-8 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10 grid md:grid-cols-2"
   >
     <!-- Left Column - Content -->
     <section class="flex flex-col items-start gap-2">
       <NuxtLinkLocale
-          v-if="announcement"
-          :to="announcement.to"
-          :target="announcement.target"
-          class="inline-flex items-center px-0.5 text-sm font-medium"
+        v-if="announcement"
+        :to="announcement.to"
+        :target="announcement.target"
+        class="inline-flex items-center px-0.5 text-sm font-medium"
       >
         <template v-if="announcement.icon">
           <SmartIcon :name="announcement.icon" :size="16" />
@@ -45,21 +44,22 @@
       </div> -->
 
       <div class="flex w-full items-center justify-start gap-2 py-2">
-        <UiButton
-            v-for="(action, i) in actions"
-            :key="i"
-            as="a"
-            :to="action.to"
-            :target="action.target"
-            :variant="action.variant"
-            size="sm"
+        <NuxtLinkLocale
+          v-for="(action, i) in actions"
+          :key="i"
+          as="a"
+          :to="action.to"
+          :target="action.target"
+          :variant="action.variant"
+          size="sm"
         >
-          <SmartIcon v-if="action.leftIcon" :name="action.leftIcon" class="mr-1" />
-          {{ action.name }}
-          <SmartIcon v-if="action.rightIcon" :name="action.rightIcon" class="ml-1" />
-        </UiButton>
+          <UiButton :variant="action.variant" size="sm">
+            <SmartIcon v-if="action.leftIcon" :name="action.leftIcon" class="mr-1" />
+            {{ action.name }}
+            <SmartIcon v-if="action.rightIcon" :name="action.rightIcon" class="ml-1" />
+          </UiButton>
+        </NuxtLinkLocale>
       </div>
-
     </section>
 
     <!-- Right Column - Logo -->
@@ -67,14 +67,14 @@
       <div class="flex flex-col items-center gap-4">
         <div class="flex items-center justify-center rounded-2xl bg-muted/20">
           <NuxtImg
-              :src="logo?.light"
-              :alt="logo?.alt"
-              class="h-80 w-80 object-contain dark:hidden"
+            :src="logo?.light"
+            :alt="logo?.alt"
+            class="h-80 w-80 object-contain dark:hidden"
           />
           <NuxtImg
-              :src="logo?.dark || logo?.light"
-              :alt="logo?.alt"
-              class="hidden h-80 w-80 object-contain dark:block"
+            :src="logo?.dark || logo?.light"
+            :alt="logo?.alt"
+            class="hidden h-80 w-80 object-contain dark:block"
           />
         </div>
       </div>
