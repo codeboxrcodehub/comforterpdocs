@@ -1,1 +1,0 @@
-import{f as a,c as o,r as n,n as c,l as t,o as l,m as d}from"./DRExGCS3.js";const f=a({__name:"Card",props:{class:{}},setup(s){const e=s;return(r,p)=>(l(),o("div",{class:c(t(d)("rounded-lg border bg-card text-card-foreground shadow-xs",e.class))},[n(r.$slots,"default")],2))}});export{f as _};

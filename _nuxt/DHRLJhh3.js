@@ -1,0 +1,1 @@
+import{f as s,c as r,r as d,n as e,o as l}from"./C0n7jVjm.js";const i=s({__name:"CardGroup",props:{cols:{default:2}},setup(a){return(o,c)=>(l(),r("div",{class:e(["group grid gap-4 [&:not(:first-child)]:mt-5",`${["md:grid-cols-1","md:grid-cols-2","md:grid-cols-3","md:grid-cols-4","md:grid-cols-5","md:grid-cols-6"][o.cols-1]}`])},[d(o.$slots,"default")],2))}});export{i as default};
