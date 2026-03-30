@@ -1,17 +1,17 @@
 <template>
   <div
-    class="gap-8 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10"
-    :class="{ 'grid md:grid-cols-3': $slots.right }"
+      class="gap-8 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10"
+      :class="{ 'grid md:grid-cols-3': $slots.right }"
   >
     <section
-      class="flex flex-col items-start gap-2"
-      :class="{ 'md:col-span-2': $slots.right }"
+        class="flex flex-col items-start gap-2"
+        :class="{ 'md:col-span-2': $slots.right }"
     >
       <NuxtLinkLocale
-        v-if="announcement"
-        :to="announcement.to"
-        :target="announcement.target"
-        class="inline-flex items-center px-0.5 text-sm font-medium"
+          v-if="announcement"
+          :to="announcement.to"
+          :target="announcement.target"
+          class="inline-flex items-center px-0.5 text-sm font-medium"
       >
         <template v-if="announcement.icon">
           <SmartIcon :name="announcement.icon" :size="16" />
@@ -30,10 +30,10 @@
 
       <div class="flex w-full items-center justify-start gap-2 py-2">
         <NuxtLinkLocale
-          v-for="(action, i) in actions"
-          :key="i"
-          :to="action.to"
-          :target="action.target"
+            v-for="(action, i) in actions"
+            :key="i"
+            :to="action.to"
+            :target="action.target"
         >
           <UiButton :variant="action.variant" size="sm">
             <SmartIcon v-if="action.leftIcon" :name="action.leftIcon" class="mr-1" />

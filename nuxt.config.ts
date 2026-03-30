@@ -1,104 +1,129 @@
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import {dirname, join} from 'node:path';
+import {fileURLToPath} from 'node:url';
 import tailwindcss from '@tailwindcss/vite';
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
+//const base = process.env.NUXT_APP_BASE_URL || '/comforterpdocs/';
+
+//console.log('>>> BASE_URL at build time:', process.env.BASE_URL);
+//console.log('>>> NUXT_APP_BASE_URL at build time:', process.env.NUXT_APP_BASE_URL);
+
+
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  modules: [
-    'shadcn-nuxt',
-    '@vueuse/nuxt',
-    '@ztl-uwu/nuxt-content',
-    '@nuxt/image',
-    '@nuxt/icon',
-    '@nuxtjs/color-mode',
-    'nuxt-og-image',
-    '@nuxt/scripts',
-    '@nuxtjs/i18n',
-    '@nuxt/fonts',
-  ],
-  shadcn: {
-    prefix: 'Ui',
-    componentDir: join(currentDir, './components/ui'),
-  },
-  components: {
-    dirs: [
-      {
-        path: './components',
-        ignore: ['**/*.ts'],
-      },
+    nitro: {
+        //preset: 'github-pages',
+        preset: process.env.PRESET,
+        prerender: {
+            failOnError: true, // Don’t exit build on missing docs/images
+        },
+    },
+    app: {
+        //baseURL: process.env.BASE_URL || '/comforterpdocs/',
+        baseURL: process.env.NUXT_APP_BASE_URL ?? '/',
+        head: {
+            link: [
+                { rel: 'icon', type: 'image/svg', href: '/logo_icon_brand_512.png' },
+            ],
+        }
+    },
+    ssr: true,
+    devtools: {enabled: true},
+    modules: [
+        'shadcn-nuxt',
+        '@vueuse/nuxt',
+        '@ztl-uwu/nuxt-content',
+        '@nuxt/image',
+        '@nuxt/icon',
+        '@nuxtjs/color-mode',
+        'nuxt-og-image',
+        '@nuxt/scripts',
+        '@nuxtjs/i18n',
+        '@nuxt/fonts',
     ],
-  },
-  i18n: {
-    bundle: {
-      optimizeTranslationDirective: false,
+    shadcn: {
+        prefix: 'Ui',
+        componentDir: join(currentDir, './components/ui'),
     },
-    strategy: 'prefix_except_default',
-  },
-  colorMode: {
-    classSuffix: '',
-    disableTransition: true,
-  },
-  css: [
-    join(currentDir, './assets/css/themes.css'),
-    '~/assets/css/tailwind.css',
-  ],
-  content: {
-    documentDriven: true,
-    highlight: {
-      theme: {
-        default: 'github-light',
-        dark: 'github-dark',
-      },
-      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'mdc', 'yaml', 'bash', 'ini', 'dotenv'],
+    components: {
+        dirs: [
+            {
+                path: './components',
+                ignore: ['**/*.ts'],
+            },
+        ],
     },
-    navigation: {
-      fields: [
-        'icon',
-        'navBadges',
-        'navTruncate',
-        'badges',
-        'toc',
-        'sidebar',
-        'collapse',
-        'editLink',
-        'prevNext',
-        'breadcrumb',
-        'fullpage',
-      ],
+    i18n: {
+        bundle: {
+            optimizeTranslationDirective: false,
+        },
+        strategy: 'prefix_except_default',
     },
-    experimental: {
-      search: {
-        indexed: true,
-      },
+    colorMode: {
+        classSuffix: '',
+        disableTransition: true,
     },
-  },
-  icon: {
-    clientBundle: {
-      scan: true,
-      sizeLimitKb: 512,
-    },
-  },
-  fonts: {
-    defaults: {
-      weights: ['300 800'],
-    },
-  },
-  typescript: {
-    tsConfig: {
-      compilerOptions: {
-        baseUrl: '.',
-      },
-    },
-  },
-  vite: {
-    plugins: [
-      tailwindcss(),
+    css: [
+        join(currentDir, './assets/css/themes.css'),
+        //'~/assets/css/tailwind.css',
+        join(currentDir, './www/assets/css/tailwind.css'),
+        join(currentDir, './assets/css/custom.css'),
     ],
-    optimizeDeps: {
-      include: ['debug'],
+    content: {
+        documentDriven: true,
+        highlight: {
+            theme: {
+                default: 'github-light',
+                dark: 'github-dark',
+            },
+            preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'mdc', 'yaml', 'bash', 'ini', 'dotenv'],
+        },
+        navigation: {
+            fields: [
+                'icon',
+                'navBadges',
+                'navTruncate',
+                'badges',
+                'toc',
+                'sidebar',
+                'collapse',
+                'editLink',
+                'prevNext',
+                'breadcrumb',
+                'fullpage',
+            ],
+        },
+        experimental: {
+            search: {
+                indexed: true,
+            },
+        },
     },
-  },
-  compatibilityDate: '2025-05-13',
+    icon: {
+        clientBundle: {
+            scan: true,
+            sizeLimitKb: 512,
+        },
+    },
+    fonts: {
+        defaults: {
+            weights: ['300 800'],
+        },
+    },
+    typescript: {
+        tsConfig: {
+            compilerOptions: {
+                baseUrl: '.',
+            },
+        },
+    },
+    vite: {
+        plugins: [
+            tailwindcss(),
+        ],
+        optimizeDeps: {
+            include: ['debug'],
+        },
+    },
+    compatibilityDate: '2025-05-13',
 });

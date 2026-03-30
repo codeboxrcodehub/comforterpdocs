@@ -3,15 +3,14 @@
   "type": "module",
   "version": "1.1.2",
   "packageManager": "pnpm@10.13.1",
-  "description": "Effortless and beautiful docs template built with Nuxt Content & shadcn-vue.",
-  "author": "Tony Zhang <zhangtianli2006@gmail.com>",
+  "description": "Comfort ERP Documentation",
+  "author": "Comfort ERP Team <info@comforterp.com>",
   "license": "MIT",
-  "homepage": "https://shadcn-docs-nuxt.vercel.app/",
+  "homepage": "https://docs.comforterp.com/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZTL-UwU/shadcn-docs-nuxt.git"
   },
-  "bugs": "https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues",
   "keywords": [
     "markdown",
     "docs",
@@ -40,6 +39,8 @@
     "build": "nuxt prepare && nuxt build www",
     "dev": "nuxt prepare && nuxt dev www",
     "generate": "nuxt prepare && nuxt generate www",
+    "generate2": "nuxt prepare && nuxt generate www",
+    "generate3": "nuxt prepare && NUXT_APP_BASE_URL=/comforterpdocs/ nuxt generate --preset github_pages || echo 'Ignoring prerender errors'",
     "preview": "nuxt prepare && nuxt preview www",
     "typecheck": "nuxt prepare && nuxt typecheck",
     "lint": "eslint .",

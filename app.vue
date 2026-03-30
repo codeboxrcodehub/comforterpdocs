@@ -21,7 +21,8 @@
           (config.aside.useLevel && config.aside.levelStyle === 'aside') ? 'h-[calc(100vh-3.5rem)] md:top-[61px]' : 'h-[calc(100vh-6rem)] md:top-[101px]',
         ]"
       >
-        <LayoutAside :is-mobile="false" />
+        <!-- <LayoutAside :is-mobile="false" /> -->
+        <LayoutCustomAside :is-mobile="false" /> <!-- this custom aside works with sidebar array -->
       </aside>
       <NuxtPage />
     </div>

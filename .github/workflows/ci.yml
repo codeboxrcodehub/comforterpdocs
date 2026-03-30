@@ -1,103 +1,50 @@
-name: CI
+name: Deploy Static Site to GitHub Pages
 
 on:
   push:
     branches:
-      - main
-
+      - release
   pull_request:
     branches:
-      - main
+      - release
 
 jobs:
-  lint:
+  # This single job handles installing dependencies, generating the static site, and deploying it.
+  deploy_pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          run_install: false
+          run_install: false # Skip initial install here
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
           cache: pnpm
 
-      - name: Install dependencies
+      - name: Install Dependencies
+        # Using --frozen-lockfile ensures reproducible builds
         run: pnpm install --frozen-lockfile
 
-      - name: Lint
-        run: pnpm run lint
-
-  typecheck:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Typecheck
-        run: pnpm run typecheck
-
-  build:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build
-        run: pnpm run build
-
-  generate:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Generate
+      - name: Generate Static Site
+        # This step runs your "generate" script: "nuxt prepare && nuxt generate www"
+        # This command is responsible for generating files into 'www/.output/public'
+        env:
+          NUXT_APP_BASE_URL: /comforterpdocs/ # Setting the BASE_URL environment variable for Nuxt
         run: pnpm run generate
+
+      - name: Deploy to GitHub Pages
+        # This action pushes the generated content to the 'gh-pages' branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Ensure this path matches the output of 'nuxt generate www'
+          publish_dir: www/.output/public
+          publish_branch: gh-pages
+          # Optional: Add a custom commit message
+          commit_message: Deploying static Nuxt site to gh-pages

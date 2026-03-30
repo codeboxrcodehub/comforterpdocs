@@ -9,6 +9,8 @@ image: /seo_card.png
 card: "article"
 ---
 
+# Classic Widgets
+
 WordPress currently doesn’t support classic widgets but still you can enable it by using this plugin [“Classic Widgets”](https://wordpress.org/plugins/classic-widgets/)
 
 Comfort Events for WordPress plugin supports classic widgets. To add Comfort Events classic widget from dashboard.

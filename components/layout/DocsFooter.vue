@@ -6,7 +6,10 @@
       <!-- Right: Back to Top Button -->
       <LayoutBackToTop />
     </div>
-    <LayoutPrevNext />
+
+    <!-- <LayoutPrevNext /> -->
+    <LayoutCustomPrevNext /> <!-- this custom prev/next works with sidebar array -->
+
     <div class="flex">
       <LayoutCarbonAds v-if="!isDesktop && carbonAdsEnabled" class="mx-auto" />
     </div>

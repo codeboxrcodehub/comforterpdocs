@@ -20,7 +20,7 @@
       <ContentRenderer
         :key="page._id"
         :value="page"
-        :data="(appConfig.shadcnDocs as any)?.data"
+        :data="(appConfig.comfortErpDocs as any)?.data"
       />
     </div>
     <main
@@ -41,7 +41,6 @@
         <Alert
           v-if="page?.body?.children?.length === 0"
           icon="lucide:circle-x"
-
           :title="$t('Empty page')"
         >
           <i18n-t keypath="Start writing content">
@@ -55,7 +54,7 @@
           v-else
           :key="page._id"
           :value="page"
-          :data="(appConfig.shadcnDocs as any)?.data"
+          :data="(appConfig.comfortErpDocs as any)?.data"
           class="docs-content"
         />
 
@@ -81,15 +80,29 @@ const config = useConfig();
 const appConfig = useAppConfig();
 
 useSeoMeta({
-  title: `${page.value?.title ?? '404'} - ${config.value.site.name}`,
-  ogTitle: page.value?.title,
+  title: `${page.value?.title} | ${config.value.site.name}`,
   description: page.value?.description,
-  ogDescription: page.value?.description,
-  twitterCard: 'summary_large_image',
+
+  ogType: page.value?.ogType,
+  ogTitle: page.value?.ogTitle,
+  ogDescription: page.value?.ogDescription,
+  ogSiteName: page.value?.ogSiteName,
+  ogImage: page.value?.ogImage,
+  ogUrl: page.value?.ogUrl,
+
+  twitterCard: page.value?.twitterCard,
+  twitterTitle: page.value?.twitterTitle,
+  twitterDescription: page.value?.twitterDescription,
+  twitterImage: page.value?.twitterImage,
+  twitterSite: page.value?.twitterSite,
 });
 
-defineOgImageComponent(config.value.site.ogImageComponent, {
-  title: page.value?.title,
-  description: page.value?.description,
+// For Facebook App ID
+useHead({
+  meta: [
+    { property: 'fb:app_id', content: page.value?.fbAppId },
+    { name: 'keywords', content: page.value?.keywords },
+    { name: 'twitter:url', content: page.value?.twitterUrl },
+  ],
 });
 </script>

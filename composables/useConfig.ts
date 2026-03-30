@@ -28,7 +28,7 @@ const defaultConfig: DefaultConfig = {
   banner: {
     enable: false,
     showClose: true,
-    content: 'Welcome to **shadcn-docs-nuxt**',
+    content: 'Welcome to **Comfort ERP Documentation**',
     to: '',
     target: '_blank',
     border: true,
@@ -160,7 +160,7 @@ const defaultConfig: DefaultConfig = {
 };
 
 export function useConfig() {
-  const appConfig = computed(() => useAppConfig()?.shadcnDocs || {});
+  const appConfig = computed(() => useAppConfig()?.comfortErpDocs || {});
 
   const { navKeyFromPath } = useContentHelpers();
   const { navigation, page } = useContent();

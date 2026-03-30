@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         name: 'English',
         language: 'en-US',
       },
-      {
+      /* {
         code: 'fr',
         name: 'Français',
         language: 'fr-FR',
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         code: 'it',
         name: 'Italiano',
         language: 'it-IT',
-      },
+      }, */
     ],
   },
   ogImage: {

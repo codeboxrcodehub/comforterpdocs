@@ -1,13 +1,13 @@
 export default defineAppConfig({
-  shadcnDocs: {
+  comfortErpDocs: {
     site: {
-      name: 'shadcn-docs',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
-      ogImage: '/hero.png',
-      ogImageComponent: 'ShadcnDocs',
+      name: 'Comfort ERP Documentation',
+      description: 'Comfort ERP Documentation for WordPress. Accounting, Inventory & Invoice and much more modules of erp.',
+      ogImage: '/seo_card.png',
+      ogImageComponent: 'ComfortErpDocs',
       ogImageColor: 'light',
       umami: {
-        enable: true,
+        enable: false,
         src: 'https://cloud.umami.is/script.js',
         dataWebsiteId: 'd793fbf3-461e-4e26-9ec9-4e9141df96ee',
       },
@@ -20,17 +20,17 @@ export default defineAppConfig({
     banner: {
       enable: false,
       showClose: true,
-      content: 'Welcome to **shadcn-docs-nuxt**',
-      to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+      content: 'Welcome to **Comfort ERP Docs**',
+      to: '#',
       target: '_blank',
       border: true,
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'Comfort ERP Documentation',
       showTitle: true,
       logo: {
-        light: '/logo.svg',
-        dark: '/logo-dark.svg',
+        light: '/logo.png',
+        dark: '/logo.png',
       },
       border: false,
       darkModeToggle: true,
@@ -41,88 +41,39 @@ export default defineAppConfig({
       },
       nav: [
         {
+          title: 'Accounting',
+          to: '/comfortaccounting',
+          target: '_self',
+          showLinkIcon: false,
+        },
+        {
+          title: 'Invoice',
+          to: '/comfortinvoice',
+          target: '_self',
+          showLinkIcon: false,
+        },
+        /* {
+          title: 'Bookings',
+          to: '/comfortbookings',
+          target: '_self',
+          showLinkIcon: false,
+        },
+        {
           title: 'Events',
           to: '/comfortevents',
           target: '_self',
           showLinkIcon: false,
-        },
-        {
-          title: 'Docs',
-          links: [
-          // {
-          //   title: 'Events',
-          //   to: '/comfortevents',
-          //   description: 'Start building your document with shadcn-docs-nuxt',
-          //   icon: 'lucide:rocket',
-          // },
-          // {
-          //   title: 'Invoice',
-          //   to: '/comfortinvoice',
-          //   description: 'Explore available UI components and usage examples.',
-          //   icon: 'lucide:box',
-          // },
-
-            // {
-            //   title: 'Getting Started',
-            //   to: '/getting-started',
-            //   description: 'Start building your document with shadcn-docs-nuxt',
-            //   icon: 'lucide:rocket',
-            // },
-            // {
-            //   title: 'Components',
-            //   to: '/components/prose',
-            //   description: 'Explore available UI components and usage examples.',
-            //   icon: 'lucide:box',
-            // },
-            // {
-            //   title: 'API',
-            //   to: '/api/configuration/shadcn-docs',
-            //   description: 'Discover the configurations and exposed APIs.',
-            //   target: '_self',
-            //   icon: 'lucide:code',
-            // },
-          ],
-        },
-        {
-          title: 'Credits',
-          links: [{
-            title: 'shadcn-ui',
-            to: 'https://ui.shadcn.com/',
-            description: 'For the beautiful component design & docs design',
-            target: '_blank',
-          }, {
-            title: 'shadcn-vue',
-            to: 'https://www.shadcn-vue.com/',
-            description: 'For the vue port of shadcn-ui & some docs component source',
-            target: '_blank',
-          }, {
-            title: 'Docus',
-            to: 'https://docus.dev/',
-            description: 'For inspiration & some docs component source',
-            target: '_blank',
-          }, {
-            title: 'Nuxt Content',
-            to: 'https://content.nuxt.com/',
-            description: 'Content made easy for Vue Developers',
-            target: '_blank',
-          }],
-        },
-        {
-          title: 'Blog',
-          to: '/blog',
-          target: '_self',
-          showLinkIcon: false,
-        },
+        }, */
       ],
       links: [
-        {
+        /* {
           icon: 'lucide:coffee',
-          to: 'https://ko-fi.com/ztl_uwu',
+          to: '#',
           target: '_blank',
-        },
+        }, */
         {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
         },
       ],
@@ -134,10 +85,186 @@ export default defineAppConfig({
       collapseLevel: 1,
       folderStyle: 'default',
     },
+    // Add sidebar configuration directly here
+    sidebar: {
+      '/comfortaccounting': [
+        {
+          text: 'Comfort Accounting',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortaccounting/how-to-install' },
+            { text: 'How to Translate', link: '/comfortaccounting/how-to-translate' },
+            { text: 'Template Override', link: '/comfortaccounting/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortaccounting/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortaccounting/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortaccounting/user-guide/general' },
+            { text: 'Dashboard', link: '/comfortaccounting/user-guide/dashboard' },
+            { text: 'Agency Manager', link: '/comfortaccounting/user-guide/agency-manager' },
+            { text: 'Account Manager', link: '/comfortaccounting/user-guide/account-manager' },
+            { text: 'Category Manager', link: '/comfortaccounting/user-guide/category-manager' },
+            { text: 'VC Manager', link: '/comfortaccounting/user-guide/vc-manager' },
+            { text: 'Log Manager', link: '/comfortaccounting/user-guide/log-manager' },
+            { text: 'Reports Manager (Pro)', link: '/comfortaccounting/user-guide/reports-manager' },
+            { text: 'Settings Manager', link: '/comfortaccounting/user-guide/settings-manager' },
+            { text: 'Tools Manager', link: '/comfortaccounting/user-guide/tools-manager' },
+            { text: 'Emails Manager', link: '/comfortaccounting/user-guide/emails-manager' },
+            { text: 'Helps & Updates', link: '/comfortaccounting/user-guide/helps-updates' },
+            { text: 'Integrations', link: '/comfortaccounting/user-guide/integrations' },
+          ],
+        },
+        {
+          text: 'Shortcode',
+          collapsible: true,
+          items: [
+            { text: '7 Shortcodes', link: '/comfortaccounting/shortcodes' },
+          ],
+        },
+        {
+          text: 'Widgets',
+          collapsible: true,
+          items: [
+            { text: 'Classic Widgets', link: '/comfortaccounting/classic-widgets' },
+            { text: 'Elementor Widget', link: '/comfortaccounting/elementor-widgets' },
+            { text: 'Gutenberg Blocks', link: '/comfortaccounting/gutenberg-blocks' },
+          ],
+        },
+      ],
+
+      '/comfortinvoice': [
+        {
+          text: 'Comfort Invoice',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortinvoice/how-to-install' },
+            { text: 'How to Translate', link: '/comfortinvoice/how-to-translate' },
+            { text: 'Template Override', link: '/comfortinvoice/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortinvoice/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortinvoice/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortinvoice/user-guide/general' },
+            { text: 'Dashboard', link: '/comfortinvoice/user-guide/dashboard' },
+            { text: 'Invoice Manager', link: '/comfortinvoice/user-guide/invoice-manager' },
+            { text: 'Customer Manager', link: '/comfortinvoice/user-guide/customer-manager' },
+            { text: 'Item Manager', link: '/comfortinvoice/user-guide/item-manager' },
+            { text: 'Tax Manager', link: '/comfortinvoice/user-guide/tax-manager' },
+            { text: 'Payment History Manager', link: '/comfortinvoice/user-guide/payment-history-manager' },
+            { text: 'Settings Manager', link: '/comfortinvoice/user-guide/settings-manager' },
+            { text: 'Tools Manager', link: '/comfortinvoice/user-guide/tools-manager' },
+            { text: 'Emails Manager', link: '/comfortinvoice/user-guide/emails-manager' },
+            { text: 'Helps & Updates', link: '/comfortinvoice/user-guide/helps-updates' },
+            { text: 'WooCommerce Integration', link: '/comfortinvoice/user-guide/woo-integration' },
+          ],
+        },
+        {
+          text: 'Widgets',
+          collapsible: true,
+          items: [
+            { text: 'Dashboard Widgets', link: '/comfortinvoice/dashboard-widgets' },
+            { text: 'Classic Widgets', link: '/comfortinvoice/classic-widgets' },
+            { text: 'Elementor Widget', link: '/comfortinvoice/elementor-widgets' },
+            { text: 'Gutenberg Blocks', link: '/comfortinvoice/gutenberg-blocks' },
+          ],
+        },
+      ],
+
+      '/comfortbookings': [
+        {
+          text: 'Comfort Bookings',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortbookings/how-to-install' },
+            { text: 'How to Translate', link: '/comfortbookings/how-to-translate' },
+            { text: 'Template Override', link: '/comfortbookings/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortbookings/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortbookings/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortbookings/user-guide/general' },
+            { text: 'Dashboard', link: '/comfortbookings/user-guide/dashboard' },
+            { text: 'Appointment Type Manager', link: '/comfortbookings/user-guide/type-manager' },
+            { text: 'Meeting & Booking Manager', link: '/comfortbookings/user-guide/meeting-booking-manager' },
+            { text: 'Public Meeting & Booking', link: '/comfortbookings/user-guide/public-meeting-booking' },
+            { text: 'Meeting & Booking Calendar (Pro)', link: '/comfortbookings/user-guide/calendar' },
+            { text: 'Payments History', link: '/comfortbookings/user-guide/payment-history-manager' },
+            { text: 'Orders', link: '/comfortbookings/user-guide/orders' },
+            { text: 'Payment Methods', link: '/comfortbookings/user-guide/payment-methods-manager' },
+            { text: 'Settings Manager', link: '/comfortbookings/user-guide/settings-manager' },
+            { text: 'Tools Manager', link: '/comfortbookings/user-guide/tools-manager' },
+            { text: 'Emails Manager', link: '/comfortbookings/user-guide/emails-manager' },
+            { text: 'SMS Alerts Manager', link: '/comfortbookings/user-guide/sms-alerts-manager' },
+            { text: 'Helps & Updates', link: '/comfortbookings/user-guide/helps-updates' },
+          ],
+        },
+        {
+          text: 'Widgets',
+          collapsible: true,
+          items: [
+            { text: 'Classic Widgets', link: '/comfortbookings/classic-widgets' },
+            { text: 'Elementor Widget', link: '/comfortbookings/elementor-widgets' },
+            { text: 'Gutenberg Blocks', link: '/comfortbookings/gutenberg-blocks' },
+          ],
+        },
+      ],
+
+      '/comfortevents': [
+        {
+          text: 'Comfort Event',
+          collapsible: true,
+          items: [
+            { text: 'How to install', link: '/comfortevents/how-to-install' },
+            { text: 'How to Translate', link: '/comfortevents/how-to-translate' },
+            { text: 'Template Override', link: '/comfortevents/template-override' },
+            { text: 'Hooks and Filters', link: '/comfortevents/hooks-and-filters' },
+            { text: 'Code Samples', link: '/comfortevents/code-samples' },
+          ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortevents/user-guide/general' },
+            { text: 'Event Manager', link: '/comfortevents/user-guide/event-manager' },
+            { text: 'Event Calendar View(Pro)', link: '/comfortevents/user-guide/event-calendar' },
+            { text: 'Speaker Manager', link: '/comfortevents/user-guide/speaker-manager' },
+            { text: 'Sponsor Manager', link: '/comfortevents/user-guide/sponsor-manager' },
+            { text: 'Event Category', link: '/comfortevents/user-guide/event-category' },
+            { text: 'Event Tags', link: '/comfortevents/user-guide/event-tags' },
+            { text: 'Orders', link: '/comfortevents/user-guide/orders' },
+            { text: 'Payment History', link: '/comfortevents/user-guide/payment-history' },
+            { text: 'Payment Methods', link: '/comfortevents/user-guide/payment-methods' },
+            { text: 'Tools Manager', link: '/comfortevents/user-guide/tools-manager' },
+            { text: 'Settings Manager', link: '/comfortevents/user-guide/settings' },
+            { text: 'Email Templates', link: '/comfortevents/user-guide/emails' },
+          ],
+        },
+        {
+          text: 'Shortcode',
+          collapsible: true,
+          items: [
+            { text: '7 Shortcodes', link: '/comfortevents/shortcodes' },
+          ],
+        },
+      ],
+    },
     main: {
       padded: true,
       breadCrumb: true,
-      showTitle: true,
+      showTitle: false, // true to show title, description from page
       codeCopyToast: false,
       codeCopyIcon: 'lucide:clipboard',
       editLink: {
@@ -197,30 +324,40 @@ export default defineAppConfig({
       border: true,
       credits: 'FOOTER_CREDIT',
       links: [
-        {
+        /* {
           icon: 'lucide:heart',
           title: 'Sponsor Me',
           to: 'https://ko-fi.com/ztl_uwu',
           target: '_blank',
-        },
+        }, */
         {
           icon: 'lucide:twitter',
-          to: 'https://x.com/ZTL_UwU',
+          to: 'https://x.com/comforterpwp',
           target: '_blank',
         },
         {
+          icon: 'lucide:facebook',
+          to: 'https://www.facebook.com/comforterp/',
+          target: '_blank',
+        },
+        {
+          icon: 'lucide:youtube',
+          to: 'https://www.youtube.com/@comforterp',
+          target: '_blank',
+        },
+        /* {
           icon: 'lucide-lab:butterfly',
           to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
           target: '_blank',
-        },
-        {
+        }, */
+        /* {
           icon: 'simple-icons:discord',
           to: 'https://discord.gg/9P5HzAz8DT',
           target: '_blank',
-        },
+        }, */
         {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
         },
       ],
@@ -234,50 +371,40 @@ export default defineAppConfig({
         {
           title: 'Star on GitHub',
           icon: 'lucide:star',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
           showLinkIcon: true,
         },
         {
           title: 'Create Issues',
           icon: 'lucide:circle-dot',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
           showLinkIcon: true,
         },
       ],
       iconLinks: [
         {
-          icon: 'lucide:coffee',
-          to: 'https://ko-fi.com/ztl_uwu',
-          target: '_blank',
-        },
-        {
           icon: 'lucide:twitter',
-          to: 'https://x.com/ZTL_UwU',
+          to: 'https://x.com/comforterpwp',
           target: '_blank',
         },
         {
-          icon: 'lucide-lab:butterfly',
-          to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
+          icon: 'lucide:facebook',
+          to: 'https://www.facebook.com/comforterp/',
           target: '_blank',
         },
         {
-          icon: 'simple-icons:discord',
-          to: 'https://discord.gg/9P5HzAz8DT',
+          icon: 'lucide:youtube',
+          to: 'https://www.youtube.com/@comforterp',
+          target: '_blank',
+        },
+        {
+          icon: 'lucide:github',
+          to: 'https://github.com/codeboxrcodehub/comforterpdocs',
           target: '_blank',
         },
       ],
-      carbonAds: {
-        enable: true,
-        disableInDev: true,
-        disableInMobile: false,
-        fallback: false,
-        fallbackMessage: 'Please support us by disabling your ad blocker.',
-        code: 'CW7ITKJN',
-        placement: 'shadcn-docs-nuxtvercelapp',
-        format: 'cover',
-      },
     },
     search: {
       enable: true,

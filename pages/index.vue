@@ -6,7 +6,7 @@
     <ContentRenderer
       :key="page._id"
       :value="page"
-      :data="(appConfig.shadcnDocs as any)?.data"
+      :data="(appConfig.comfortErpDocs as any)?.data"
     />
   </div>
 </template>
@@ -17,11 +17,28 @@ const config = useConfig();
 const appConfig = useAppConfig();
 
 useSeoMeta({
-  title: `${page.value?.title ?? '404'} - ${config.value.site.name}`,
-  ogTitle: page.value?.title,
+  title: `${page.value?.title} | ${config.value.site.name}`,
   description: page.value?.description,
-  ogDescription: page.value?.description,
-  ogImage: config.value.site.ogImage,
-  twitterCard: 'summary_large_image',
+
+  ogType: page.value?.ogType,
+  ogTitle: page.value?.ogTitle,
+  ogDescription: page.value?.ogDescription,
+  ogSiteName: page.value?.ogSiteName,
+  ogImage: page.value?.ogImage,
+  ogUrl: page.value?.ogUrl,
+
+  twitterCard: page.value?.twitterCard,
+  twitterTitle: page.value?.twitterTitle,
+  twitterDescription: page.value?.twitterDescription,
+  twitterImage: page.value?.twitterImage,
+  twitterSite: page.value?.twitterSite,
+});
+
+useHead({
+  meta: [
+    { property: 'fb:app_id', content: page.value?.fbAppId },
+    { name: 'keywords', content: page.value?.keywords },
+    { name: 'twitter:url', content: page.value?.twitterUrl },
+  ],
 });
 </script>

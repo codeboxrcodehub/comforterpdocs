@@ -5,8 +5,8 @@
     :style="`background-size: 120px 120px; background-image: linear-gradient(to right, ${colorMode === 'light' ? '#e5e7eb' : '#27272a'} 1px, transparent 1px), linear-gradient(to bottom, ${colorMode === 'light' ? '#e5e7eb' : '#27272a'} 1px, transparent 1px);`"
   >
     <div class="mb-4 flex">
-      <img v-if="colorMode === 'light'" :src="logo.light" height="65">
-      <img v-else :src="logo.dark" height="65">
+      <NuxtImg v-if="colorMode === 'light'" :src="logo.light" height="65" />
+      <NuxtImg v-else :src="logo.dark" height="65" />
       <span
         v-if="showTitle && siteTitle"
         class="ml-4 self-center text-4xl font-bold"

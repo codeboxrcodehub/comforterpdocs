@@ -1,6 +1,6 @@
 ---
-title: "How to Install"
-description: "Comfort Events index description."
+title: "How to Install - Comfort Events for WordPress Documentation"
+description: "How to install guide for Comfort Events for WordPress."
 keywords: "Comfort Events index keywords."
 url: "/comfortevents/how-to-install"
 type: "type"
